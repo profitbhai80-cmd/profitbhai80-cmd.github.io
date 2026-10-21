@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://profitbhai80-cmd.github.io/sitemap.xml
+
+
+
