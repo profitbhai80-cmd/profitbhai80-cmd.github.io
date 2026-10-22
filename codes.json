@@ -1,0 +1,293 @@
+{
+  "entries": [
+    {
+      "appliance": "Dishwasher",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "dishwashers",
+      "code": "E1",
+      "meaning": "Series-dependent: on HSCE14FS models it means the dishwasher is taking too long to fill with water; on HV60340UK and H15DSS models it means the door was opened during operation.",
+      "path": "hisense/dishwasher/e1.html",
+      "source": "Hisense HSCE14FS/HSCE14FB user manual; Hisense HV60340UK manual; Hisense H15DSS manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "dishwashers",
+      "code": "E3",
+      "meaning": "Series-dependent: on HSCE14FS models the water is not reaching the required temperature (heating problem); on H15DSS/HV60340UK models it is a water drainage malfunction.",
+      "path": "hisense/dishwasher/e3.html",
+      "source": "Hisense HSCE14FS user manual; Hisense H15DSS manual; Hisense HV60340UK manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "dishwashers",
+      "code": "E9",
+      "meaning": "A control button was pressed or touched continuously for more than 30 seconds.",
+      "path": "hisense/dishwasher/e9.html",
+      "source": "Hisense HSCE14FS user manual; Insignia (Hisense-built) dishwasher FAQ",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "washing-machines",
+      "code": "E3",
+      "meaning": "Series-dependent: on top-load HW-K60B/HWT3K8065B models it is a drainage error (water not drained after about 15 minutes); a front-load error table lists it as a water filling error.",
+      "path": "hisense/washing-machine/e3.html",
+      "source": "Hisense HW-K60B / HWT3K8065B manuals; Hisense front-load error code table",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "washing-machines",
+      "code": "F03",
+      "meaning": "Draining fault: waste water is not being pumped out. A second documented meaning (overflow / high water level) exists in some Hisense documentation.",
+      "path": "hisense/washing-machine/f03.html",
+      "source": "Hisense WFXE6012-series manual; Hisense WFPV7012MT manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "washing-machines",
+      "code": "IE",
+      "meaning": "Water fill problem: the water level sensor frequency is not changing, or the machine does not fill within the set time.",
+      "path": "daewoo/washing-machine/ie.html",
+      "source": "Daewoo washing machine service error code list",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "washing-machines",
+      "code": "E8",
+      "meaning": "Initial-operation error: the Hall IC / motor connection signal is abnormal and the motor stops.",
+      "path": "daewoo/washing-machine/e8.html",
+      "source": "Daewoo washing machine service error code list",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "washing-machines",
+      "code": "H2",
+      "meaning": "Wash water temperature sensor fault: the sensor circuit is open or short-circuited.",
+      "path": "daewoo/washing-machine/h2.html",
+      "source": "Daewoo washing machine service error code list",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "dishwashers",
+      "code": "E4",
+      "meaning": "Overflow or leak protection activated: too much water in the tub or a leak has been detected, and the drain pump runs.",
+      "path": "midea/dishwasher/e4.html",
+      "source": "Midea dishwasher manuals, including US model MDT24P4AST",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "EL OC",
+      "meaning": "Refrigerant leakage detection on Midea U-shaped window air conditioners (displayed EL OC / EL0C). Refrigerant work is technician-only.",
+      "path": "midea/air-conditioner/el-oc.html",
+      "source": "Midea U-series window AC documentation",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "washing-machines",
+      "code": "E2",
+      "meaning": "Series-dependent: on the HW80-B14979 front-load model it is a door lock error; on the HWM90DD top-load model the top lid is not closed during the wash.",
+      "path": "haier/washing-machine/e2.html",
+      "source": "Haier HW80-B14979 manual; Haier HWM90DD manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "dishwashers",
+      "code": "E2",
+      "meaning": "Water inlet malfunction on H15DSS and HV60340UK models. Note: the HSCE14FS/HSCE14FB family has no E2 — inlet faults there show as E1.",
+      "path": "hisense/dishwasher/e2.html",
+      "source": "Hisense H15DSS manual; Hisense HV60340UK manual p.11; Hisense HSCE14FS/HSCE14FB instruction manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "dishwashers",
+      "code": "E4",
+      "meaning": "Series-dependent: temperature sensor malfunction (H15DSS, HV60340UK) or overflow / anti-flood activation from a leak in the base (HSCE14FS/HSCE14FB).",
+      "path": "hisense/dishwasher/e4.html",
+      "source": "Hisense H15DSS manual; Hisense HV60340UK manual p.11; Hisense HSCE14FS/HSCE14FB instruction manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "dishwashers",
+      "code": "F1",
+      "meaning": null,
+      "path": null,
+      "source": null,
+      "status": "planned"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "washing-machines",
+      "code": "OE",
+      "meaning": "Drain fault: the water level did not reach the reset point after drainage started. Some Daewoo families show QE for the same fault (water not draining for more than 15 minutes).",
+      "path": "daewoo/washing-machine/oe.html",
+      "source": "Daewoo D-CV701PC series service manual; Daewoo D-MU123 user manual; Daewoo washing machine service error-code document",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "washing-machines",
+      "code": "UE",
+      "meaning": "Unbalance error: the load is unevenly distributed; the machine tried to rebalance itself twice during spin and gave up, tripping the unbalance switch.",
+      "path": "daewoo/washing-machine/ue.html",
+      "source": "Daewoo washing machine service error-code document; Daewoo D-MU123 user manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "washing-machines",
+      "code": "E9",
+      "meaning": "E9 = water-level sensor fault: sensor frequency above 30 kHz or below 15 kHz, a sudden >1.44 kHz jump after filling, or the sensor hose disconnected. Daewoo manuals route E9 to the service center.",
+      "path": "daewoo/washing-machine/e9.html",
+      "source": "Daewoo Washing Machine Error Codes service document; Daewoo DWD-M301WP Wall-Mounted Front Load Washer User Manual (2025)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "dishwashers",
+      "code": "E1",
+      "meaning": "Longer inlet time: the inlet valve has been open about 4 minutes without enough water entering; consistent across Midea dishwasher model families.",
+      "path": "midea/dishwasher/e1.html",
+      "source": "Midea MDT24P4AST/MDT24P6CST user manuals; Midea Smart Dishwasher (Model 340607) and MDP18B10AWWC manuals; Midea MFD60S120X-HR manual; Midea dishwasher technical service manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "washing-machines",
+      "code": "E1",
+      "meaning": "Drainage failure on all families that use E1: blocked drain hose (top-load HWM/HWT families) or clogged pump filter (European HW-B1426 front-load family). The HW80/HW100/HW120-B14979 and HWF85ANB1/HWF90ANB1 families do not use E1 — drainage faults there show as CLR FLTR.",
+      "path": "haier/washing-machine/e1.html",
+      "source": "Haier HWM90DD user manual; Haier HWM120-1678ES5 manual; Haier HWM170-B278S6 manual; Haier AU HWT09/HWT10/HWT12 top-loader guide; Haier official EG/AE top-load manuals; Haier HW70B1426, HW90B14266A, HW90BP14636 front-load manuals; Haier HWF85ANB1/HWD80-B14979 manuals",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "refrigerators-freezers",
+      "code": "F1",
+      "meaning": "F1 = refrigerator (R1) sensor malfunction: short circuit or open/broken circuit. Codes are recalled with a 3-button sequence on HB21F models; shown directly on HRF-663 models.",
+      "path": "haier/refrigerator/f1.html",
+      "source": "Haier HB21FWRSS Refrigerator Service Manual (EDITION 2008-03-24); Haier HRF-663ISB2 Service Manual (Issue 20090416, Ref0904S016V0)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "dishwashers",
+      "code": "E01",
+      "meaning": "Chassis water filling fault: the anti-flood float switch detected water in the machine's base/chassis; the error algorithm activates, the cycle ends, and the machine tries to discharge the water. On models without a display the same fault blinks P1 with the power LED flashing.",
+      "path": "beko/dishwasher/e01.html",
+      "source": "Beko BDIS16030 user manual; Beko BDIN38460 manual; Beko BDIN4S560WP manual; Beko Australia official dishwasher support",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "washing-machines",
+      "code": "E08",
+      "meaning": "The machine may not be taking in water (Beko's manuals label this fault E8 — your display shows E08).",
+      "path": "beko/washing-machine/e08.html",
+      "source": "Beko BM3WFSU39413W/BM3WFSU39413WPBB1 user manual; Beko BM1WFSU37233WPBB user manual; Beko BM3WFSU48415WPBB2 user manual; Beko B7WFU69418WB user manual; Beko BMWU3821W user manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "E1",
+      "meaning": "E1 = communication malfunction between the indoor and outdoor units (no feedback for 110 seconds, happening 4 times). Check wiring first; the S-to-N voltage test is technician work.",
+      "path": "midea/air-conditioner/e1.html",
+      "source": "Midea High Wall System Error Codes and Fault Diagnosis Guide; Midea Air Conditioner Owner's Manual (document 16122500000082, 20150328)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "EC",
+      "meaning": "EC = refrigerant leak detection: the T2 coil temperature fails to drop after the compressor starts (8-minute/3-times trigger logic). Power-cycle only; pressure, leak and recharge work is technician-only.",
+      "path": "midea/air-conditioner/ec.html",
+      "source": "Midea High Wall System Error Codes and Fault Diagnosis Guide; Midea MSAG-10CRN8 Room Air Conditioner User Manual; Midea Ductless Split Unit System Owner's Manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "H3",
+      "meaning": "H3 = compressor overload protection on mini-split families (low charge, blocked capillary, compressor motor, loose OVC-COMP terminal; outdoor unit flashes 8×). On GMV VRF platforms H3 = fan drive module reset protection instead.",
+      "path": "gree/air-conditioner/h3.html",
+      "source": "Gree NEO series Instruction Manual (Cat DFS-NEO-CO-2IN, 2014); Gree Livo LIVS18HP230V1BH manual; Gree Ceiling Cassette Owner's Manual; Gree GMV6 Mini DC Inverter VRF Service Manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "washing-machines",
+      "code": "E4",
+      "meaning": "Series split: on top-loaders (HW-K60B, HWT3K8065B) E4 = too-long-to-fill water supply fault (check tap, hose, and drain-hose height ≥90 cm); on front-load E-series (WFQY9014EVJM) E4 = motor error. F-code front-loads have no E4.",
+      "path": "hisense/washing-machine/e4.html",
+      "source": "Hisense HWT3K8065B 3K 8kg Top Load User Guide; Hisense HW-K60B Fully Automatic User Manual; Hisense WFQY9014EVJM Front-Load User Manual; Hisense WF3S8046BW Front-Load User Manual",
+      "status": "verified"
+    }
+  ],
+  "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
+  "site": "Appliance Error Codes & Troubleshooting",
+  "updated": "2026-10-21"
+}
