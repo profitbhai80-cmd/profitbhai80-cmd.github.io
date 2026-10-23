@@ -10,6 +10,14 @@
     return (v || "").toString().trim().toUpperCase().replace(/[\s-]+/g, "");
   }
   function entryCodeNorm(e) { return normalizeCode(e.code); }
+  /* Loose form for letter+number codes: drop the leading zeros of the number
+     so "E1" matches "E01" and "F3" matches "F03". Significant zeros are kept:
+     E10 stays E10 and E100 stays E100, so those never collide with E1. */
+  function looseCode(v) {
+    var n = normalizeCode(v);
+    var m = n.match(/^([A-Z]+)0*(\d+)$/);
+    return m ? m[1] + String(parseInt(m[2], 10)) : n;
+  }
 
   function loadData(cb) {
     if (entriesCache) { cb(entriesCache); return; }
@@ -47,7 +55,8 @@
     if (f.fixedCategory && e.category !== f.fixedCategory) return false;
     if (f.category && e.category !== f.category) return false;
     if (f.brand && e.brand !== f.brand) return false;
-    if (f.code && entryCodeNorm(e) !== f.code) return false; /* exact code match only */
+    if (f.code && entryCodeNorm(e) !== f.code && looseCode(e.code) !== looseCode(f.code)) return false;
+    if (f.prefix && entryCodeNorm(e).indexOf(f.prefix) !== 0 && looseCode(e.code).indexOf(looseCode(f.prefix)) !== 0) return false;
     return true;
   }
 
@@ -70,8 +79,8 @@
         : '<span class="badge planned">Guide in preparation</span>';
       var title = e.brand + " " + e.appliance + " — Error Code " + e.code;
       var head = e.status === "verified" && e.path
-        ? '<h3><a href="' + BASE + e.path + '">' + title + "</a> " + badge + "</h3>"
-        : "<h3>" + title + " " + badge + "</h3>";
+        ? '<h2><a href="' + BASE + e.path + '">' + title + "</a> " + badge + "</h2>"
+        : "<h2>" + title + " " + badge + "</h2>";
       var body = e.status === "verified"
         ? "<p>" + (e.meaning || "") + "</p>"
         : "<p>This code is in our research queue. Its meaning will be published only after verification against the manufacturer manual — we do not guess.</p>";
@@ -91,6 +100,12 @@
       var f = currentFilters(scope);
       loadData(function (entries) {
         var list = entries.filter(function (e) { return matches(e, f); });
+        /* Prefix fallback: if the code matched nothing, try codes that start with it
+           (for example "EL" finding "EL OC"). Category/brand filters still apply. */
+        if (!list.length && f.code && f.code.length >= 2) {
+          var f2 = { code: "", category: f.category, brand: f.brand, fixedCategory: f.fixedCategory, prefix: f.code };
+          list = entries.filter(function (e) { return matches(e, f2); });
+        }
         /* verified guides first, then planned */
         list.sort(function (a, b) {
           if (a.status === b.status) return 0;
@@ -127,7 +142,7 @@
   var recent = document.getElementById("recent-guides");
   if (recent) {
     loadData(function (entries) {
-      var verified = entries.filter(function (e) { return e.status === "verified" && e.path; }).slice(0, 6);
+      var verified = entries.filter(function (e) { return e.status === "verified" && e.path; }).slice().reverse().slice(0, 6); /* codes.json is oldest-first: reverse so the NEWEST guides show */
       if (!verified.length) return;
       recent.innerHTML = "";
       verified.forEach(function (e) {

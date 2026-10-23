@@ -12,10 +12,16 @@ Designed for GitHub Pages and for future, clearly-separated advertising slots.
 - `categories/` — one static page per appliance category (8).
 - `<brand>/<appliance>/<code>.html` — verified error-code guide pages, e.g.
   `hisense/dishwasher/e1.html`.
+- `<brand>/index.html` — brand hub pages listing every verified guide for
+  that brand, grouped by appliance.
 - `guides/` — general troubleshooting articles.
 - `about.html`, `contact.html`, `privacy-policy.html`, `terms.html`,
-  `disclaimer.html` — trust & safety pages (contact details are placeholders
-  for the owner to fill in).
+  `disclaimer.html` — trust & safety pages (until the owner publishes an
+  email address, contact is via the site's public GitHub issues — see
+  `contact.html`).
+- `google30a465a3691a33eb.html` — Google Search Console verification file.
+  **Never delete or rename it** — deleting it loses Search Console
+  ownership of the site.
 - `data/codes.json` — the structured data behind search, filters and listings.
 - `styles.css`, `script.js`, `assets/logo.svg`, `404.html`,
   `robots.txt`, `sitemap.xml`.
