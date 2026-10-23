@@ -410,5 +410,5 @@
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
   "site": "Appliance Error Codes & Troubleshooting",
-  "updated": "2026-10-21"
+  "updated": "2026-10-23"
 }
