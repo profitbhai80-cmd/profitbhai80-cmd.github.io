@@ -846,6 +846,94 @@
       "path": "beko/washing-machine/e07.html",
       "source": "Arçelik B7S ARCD service document (Rev.00 10.04.2020, WTK platform) E7 flowchart; ukwhitegoods Beko WMA fault-code table (from information given to us from Beko) E7 row",
       "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "E4",
+      "meaning": "E4 = indoor room temperature sensor (T1) open circuit or short circuit: sampling voltage below 0.06V or above 4.94V (wiring mistake, faulty sensor, or faulty indoor PCB).",
+      "path": "midea/air-conditioner/e4.html",
+      "source": "Midea High Wall System Error Codes and Fault Diagnosis Guide (E4/E5/F1/F2/F3 section); Midea MSMBB-12CRDN1-MPOW Air Conditioner error table (E4, timer OFF, operation flash 5); Midea Air Conditioner Owner's Manual 16122500000082 (E4, timer OFF, running lamp 5 flashes)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "F1",
+      "meaning": "F1 = outdoor room (ambient) temperature sensor T4 open circuit or short circuit: sampling voltage below 0.06V or above 4.94V (wiring mistake, faulty sensor, or faulty outdoor PCB).",
+      "path": "midea/air-conditioner/f1.html",
+      "source": "Midea High Wall System Error Codes and Fault Diagnosis Guide (E4/E5/F1/F2/F3 section); Midea Air Conditioner Owner's Manual 16122500000082 (F1, timer ON, running lamp 2 flashes); Midea Neola Midwall Inverters table (F1, T4, 2 flashes)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "F2",
+      "meaning": "F2 = outdoor condenser pipe (coil) temperature sensor T3 open circuit or short circuit: sampling voltage below 0.06V or above 4.94V (wiring mistake, faulty sensor, or faulty outdoor PCB).",
+      "path": "midea/air-conditioner/f2.html",
+      "source": "Midea High Wall System Error Codes and Fault Diagnosis Guide (E4/E5/F1/F2/F3 section); Midea Air Conditioner Owner's Manual 16122500000082 (F2, timer ON, running lamp 3 flashes); Midea Neola Midwall Inverters table (F2, T3, 3 flashes)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "F3",
+      "meaning": "F3 = discharging air / compressor discharge temperature sensor T5 open circuit or short circuit: sampling voltage below 0.06V or above 4.94V (wiring mistake, faulty sensor, or faulty outdoor PCB).",
+      "path": "midea/air-conditioner/f3.html",
+      "source": "Midea High Wall System Error Codes and Fault Diagnosis Guide (E4/E5/F1/F2/F3 section); Midea Air Conditioner Owner's Manual 16122500000082 (F3, timer ON, running lamp 4 flashes); Midea Neola Midwall Inverters table (F3, T5, 4 flashes)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "F1",
+      "meaning": "F1 (Gree wall-split) = indoor ambient (room) temperature sensor open circuit or short circuit (bad connection, faulty sensor, short from tripped parts, or faulty mainboard).",
+      "path": "gree/air-conditioner/f1.html",
+      "source": "Gree Split Air Conditioner User Manual (F1, cool indicator once/3s); Gree ETAC3-07HC230VA Terminal Air Conditioner User Manual (F1, indoor ambient open/short, STATUS flash once/3s); Gree NEO09AC115V1A Neo Ductless Instruction Manual (F1, indoor air thermistor); Gree Inverter AC Service Manual section 9.2 (F1/F2 tree)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "E1",
+      "meaning": "E1 = temperature sensor failure of the refrigerating (fresh-food) chamber (loose/contaminated connection, faulty sensor, or faulty main PCB).",
+      "path": "midea/refrigerator/e1.html",
+      "source": "Midea Refrigerator User Manual: MERB345MG, MDRB470MG, MDRB521MGA; Midea MDRB521MIE02 User Manual; Midea MDRS619FIE / MDRS791MIE Side-by-Side User Manuals; Midea MRF23I5AST Built-In Manual; Midea MRQ23BCAST French Door Manual; Midea Service Manual REF MDRE411FGE01 (E1 tree)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "dishwashers",
+      "code": "E4",
+      "meaning": "E4 = drain hose crimped or bent, or drain hose positioned too high (installation range 40–100 cm for the free end).",
+      "path": "haier/dishwasher/e4.html",
+      "source": "Haier DW9-UFE3 User's Manual; Haier DW12-TFE1/DW12-TFE2 User Manual; Haier HDW12-SFE3 User Manual; Haier HDW12-TFE3SS User Manual; Haier DW12-EBE4TIS User Manual (40–100 cm installation range); Haier XF 4A4M4BX Manual (E4 leak contrast)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "air-conditioners",
+      "code": "E5",
+      "meaning": "E5 (Hisense portable) = unit full of water: the internal water container/tank has reached its limit and must be drained before the unit will run again.",
+      "path": "hisense/air-conditioner/e5.html",
+      "source": "Hisense AP-12CR1SEPS User Manual; Hisense AP-10CR1SEPS User Manual; Hisense APC09 User Manual; Hisense Portable Air Conditioner Use and Installation Instructions (manuals.plus, multiple portable models); Hisense Portable Air Conditioner User Manual model B08LP358RZ",
+      "status": "verified"
     }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
