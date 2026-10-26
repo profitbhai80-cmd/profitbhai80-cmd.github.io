@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Midea Air Conditioner Error Code F3: Meaning, Causes &amp; Safe Fixes</title>
+<meta name="description" content="What Midea air conditioner error F3 means, its common causes, safe checks to try first, and when to call a technician. Meaning checked against the manufacturer manuals.">
+<link rel="canonical" href="https://profitbhai80-cmd.github.io/midea/air-conditioner/f3.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Midea Air Conditioner Error Code F3: Meaning, Causes &amp; Safe Fixes">
+<meta property="og:description" content="What Midea air conditioner error F3 means, its common causes, safe checks to try first, and when to call a technician. Meaning checked against the manufacturer manuals.">
+<meta property="og:url" content="https://profitbhai80-cmd.github.io/midea/air-conditioner/f3.html">
+<link rel="icon" type="image/svg+xml" href="../../assets/logo.svg">
+<link rel="stylesheet" href="../../styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does F3 mean on a Midea air conditioner?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "F3 means the discharging air / compressor discharge temperature sensor T5 is open circuit or short circuit: the sensor that measures the hot discharge line at the outdoor unit has failed, so its sampling voltage falls below 0.06V or rises above 4.94V. The Midea High Wall Fault Diagnosis Guide defines it this way in its E4/E5/F1/F2/F3 section, and the Owner&#x27;s Manual 16122500000082 lists it as discharging air temperature sensor error, timer lamp ON, running lamp 4 flashes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I clear Midea F3?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Switch the unit off and back on — if F3 was a transient detection glitch it clears. If it returns, the fault is genuine: the manual&#x27;s tree is connections first, then sensor resistance (against the T5 curve, not the indoor-sensor curve), then the sensor, then the outdoor PCB. The discharge sensor sits on the hot, refrigerant-adjacent outdoor circuit, so everything past a power-cycle is technician work; there is no deeper home fix."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Midea F3 the same as P2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — F3 is a sensor-circuit fault (T5 open/short), while P2 is a compressor-top high-temperature protection trip. F3 says the discharge reading itself is missing or impossible; P2 says the compressor top actually got too hot. They need different diagnosis, so do not treat an F3 as an overheating trip or vice versa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I tell F3 from F1 or F2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "By the running-lamp flash count with the timer lamp ON: F1 flashes twice (T4 outdoor ambient), F2 flashes three times (T3 outdoor coil), F3 flashes four times (T5 discharge). On a display model the code itself is shown."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is the discharge sensor special?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It watches the hottest point in the refrigeration circuit, and its resistance curve is different from the other sensors — the High Wall guide plots T5 on a higher curve than T1/T2/T3/T4. A technician checking T5 against the wrong curve would misdiagnose a good sensor, which is one reason this fault belongs to a qualified technician."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="../../index.html" aria-label="Appliance Error Codes — home">
+      <img src="../../assets/logo.svg" alt="" width="42" height="42">
+      <span><span class="brand-name">Appliance Error Codes</span><br><span class="brand-sub">&amp; Troubleshooting</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../error-codes.html">Error Codes</a></li>
+        <li><a href="../../index.html#appliances">Appliances</a></li>
+        <li><a href="../../index.html#guides">Troubleshooting</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../index.html">Home</a> <span class="sep">›</span> Midea <span class="sep">›</span> <a href="../../categories/air-conditioners.html">Air Conditioners</a> <span class="sep">›</span> Error F3</nav>
+<article class="page">
+<h1>Midea Air Conditioner Error Code F3</h1>
+<div class="quick-box"><h2>Quick answer</h2><table>
+<tr><th scope="row">Error code</th><td><strong>F3</strong> — Midea Air Conditioner</td></tr>
+<tr><th scope="row">What it means</th><td>F3 on a Midea mini split means the compressor discharge temperature sensor (T5) is open circuit or short circuit: the sensor on the hot discharge line at the outdoor unit has failed, so its sampling voltage falls outside the guide&#x27;s 0.06V–4.94V window. The Midea manuals name three causes — a wiring mistake, a faulty sensor, or a faulty outdoor PCB — and the guide&#x27;s tree checks connections, then sensor resistance against the T5 curve, then the sensor, then the PCB. Power-cycle once; if F3 returns, the discharge sensor circuit needs a qualified technician.</td></tr>
+<tr><th scope="row">Most common cause</th><td>The compressor discharge temperature sensor (T5) has gone open or short circuit, or its wiring to the outdoor PCB is faulty — the control can no longer read discharge temperature.</td></tr>
+<tr><th scope="row">Safe to check yourself?</th><td>Partly. The safe home check is a single power-cycle: switch the unit off, wait, and switch it back on — if F3 clears it was a transient detection glitch. Anything beyond that (checking the discharge sensor&#x27;s connections, measuring its resistance, or testing the outdoor PCB) is technician work under the guide&#x27;s own tree; the discharge circuit is hot and refrigerant-adjacent, so never open the outdoor unit&#x27;s electrical covers yourself.</td></tr>
+<tr><th scope="row">Checked against</th><td>Midea High Wall System Error Codes and Fault Diagnosis Guide (manuals.plus mirror of the Midea service document) — E4/E5/F1/F2/F3 Temperature sensor failure section, incl. 0.06V/4.94V decision condition, F3 = T5 mapping, and the T5-curve note; Midea Air Conditioner Owner&#x27;s Manual, document 16122500000082 (20150328) — current-generation indoor table: discharging air temperature sensor error F3, timer ON, running lamp 4 flashes; Midea Air Conditioner Service Manual, section 9.3.5 (Scribd mirror) — E4/E5/F1/F2/F3 diagnosis and solution, same 0.06V/4.94V condition; Midea Neola Series Midwall Inverters table (manuals.plus) — F3, 4 flashes, compressor discharge temperature sensor T5 open circuit or short circuit</td></tr>
+</table></div>
+<!-- AD SLOT (in-content): paste your ad network code here later if wanted. Keep it visually separate from the steps above and below; never label it as a repair step or button. -->
+<div class="ad-slot" aria-hidden="true"></div>
+<h2>Applies to — read this first</h2>
+<p>On the current/inverter Midea high-wall families we checked, F3 is consistent — it is always the compressor discharge temperature sensor T5, open or short circuit. The Owner&#x27;s Manual calls it the &#x27;discharging air temperature sensor&#x27; and the High Wall guide calls it &#x27;T5 – Compressor Discharge&#x27;: same sensor, two names. Do not confuse F3 with P2: P2 is a compressor-top high-temperature protection trip, while F3 is a sensor-circuit fault — different causes, different fixes.</p>
+<table><tr><th>Manual</th><th>Exact wording for F3</th></tr><tr><td>Midea High Wall System Error Codes and Fault Diagnosis Guide (service document)</td><td>&quot;E4/E5/F1/F2/F3 – Temperature sensor failure. Malfunction decision conditions: If the sampling voltage is lower than 0.06V or higher than 4.94V, the LED will display the failure. Possible causes: Wiring mistake / Faulty Sensor / Faulty PCB.&quot; Mapping: &quot;E4 – T1 Fault – Indoor Ambient; E5 - T2 Fault – Indoor Coil; F1 - T4 Fault – Outdoor ambient; F2 - T3 Fault – Outdoor coil; F3 - T5 Fault – Compressor Discharge.&quot; The guide&#x27;s resistance-curve diagram plots T5 on a higher curve than T1/T2/T3/T4 — T5 must be checked against its own curve. Action: check connections between sensor and main PCB; if good, check resistance via the resistance curve tables and Info Enquiry Mode; if normal, replace the indoor/outdoor main PCB; if not, replace the sensor.</td></tr>
+<tr><td>Midea Air Conditioner Owner&#x27;s Manual, document 16122500000082 (20150328)</td><td>Current-generation indoor table: &quot;Discharging air temperature sensor error | F3 | timer ON | running lamp 4 flashes.&quot; Same table: F1 = outdoor room sensor (2 flashes), F2 = outdoor condenser pipe sensor (3 flashes).</td></tr>
+<tr><td>Midea Neola Series Midwall Inverters table</td><td>&quot;F3 | 4 | Compressor discharge temperature sensor T5 open circuit or short circuit&quot; — same mapping and flash count as the Owner&#x27;s Manual.</td></tr>
+<tr><td>Midea P2 protection (do not confuse)</td><td>P2 in the same Owner&#x27;s Manual table is &quot;High temperature protection of compressor top&quot; (timer flashing, 3 flashes) — a protection trip, not a sensor-circuit fault. F3 and P2 need different diagnosis.</td></tr></table>
+<p>Do not borrow meanings from other Midea platforms: MDV commercial and MSX tables number their sensors differently, and fixed-speed Neola tables renumber the indoor sensors. The F3 = T5 mapping here is the current/inverter high-wall numbering only. The resistance checks and PCB tests in the guide are technician checks, quoted here only so you know what the technician will test. Note the guide&#x27;s curve warning: the T5 resistance curve sits higher than the T1/T2/T3/T4 curve — T5 must be checked against its own curve, never against the indoor-sensor curve.</p>
+<h2>What the machine does when F3 fires</h2>
+<p>The indoor unit displays F3 — on lamp-only models the timer lamp is ON and the running lamp flashes four times — because the T5 sampling voltage has gone outside the guide&#x27;s 0.06V–4.94V window. The manuals describe the display and the fault, not a separate shutdown sequence; do not expect the unit to behave like a protection shutdown (E1/E3 or P2). The symptom is a lost discharge-temperature reading, not a fan or pressure event.</p>
+<h2>Common causes</h2><ol>
+<li>A wiring mistake or loose connection between the discharge T5 temperature sensor and the outdoor main PCB — the first cause the High Wall guide names.</li>
+<li>A faulty T5 sensor itself — the compressor discharge thermistor gone open circuit or short circuit, so its sampling voltage falls below 0.06V or rises above 4.94V.</li>
+<li>A damaged sensor cable or poor sensor placement — the guide tells the technician to check the connections, the placement of the sensor, and the cable condition before condemning any part.</li>
+<li>A faulty outdoor main PCB — the guide&#x27;s final verdict when the connections are good and the sensor resistance is normal but F3 persists.</li>
+</ol>
+<h2>Safe checks, in order</h2><ol class="steps-list">
+<li>Switch the unit off, wait a minute, and switch it back on. If F3 clears, it was a transient detection glitch — keep an eye on it, because a repeat points to the discharge sensor circuit.</li>
+<li>Note exactly what the display shows: F3 on a display model, or timer lamp ON with the running lamp flashing four times on a lamp-only model. If a different flash count shows, check the matching code instead (2 flashes is F1, outdoor ambient; 3 flashes is F2, outdoor coil).</li>
+<li>If F3 returns after the restart, stop: the guide&#x27;s next steps are checking the T5 sensor&#x27;s connections to the outdoor main PCB, then measuring the sensor&#x27;s resistance against the T5 curve tables — all of which mean opening the outdoor unit and handling hot, refrigerant-adjacent electronics. That is technician work. If the connections are good but the resistance is out of range, the sensor gets replaced; if the resistance is normal, the guide condemns the outdoor main PCB.</li>
+</ol>
+<p>Work through the checks in order and stop as soon as the code clears. F3 has no deeper home diagnostic in any manual — power-cycle, identify the lamp pattern, then the technician&#x27;s connection/resistance/PCB tree. Never open the outdoor unit&#x27;s electrical covers or test a live board.</p>
+<h2>When to call a technician</h2><ul>
+<li>F3 returns after a power-cycle — the T5 sensor circuit fault is genuine, not a glitch.</li>
+<li>The T5 sensor&#x27;s sampling voltage is outside the guide&#x27;s 0.06V–4.94V window, or its resistance does not match the T5 curve tables — faulty sensor or wiring, per the guide.</li>
+<li>Connections good and sensor resistance normal but F3 persists — the guide condemns the outdoor main PCB.</li>
+<li>Any burning smell, damaged wiring, or scorching near the outdoor unit — switch off immediately and call a qualified technician.</li>
+</ul>
+<p>More guidance: <a href="../../guides/when-to-call-technician.html">when an appliance error requires professional service</a>.</p>
+<div class="safety"><h2>Safety first</h2><p>F3 involves mains-powered outdoor electronics on a hot, refrigerant-adjacent circuit: never open the outdoor unit&#x27;s electrical covers or touch sensor or PCB terminals while investigating it. Switch the power off before any visible check, and never work on a live board. The sensor-resistance and PCB verdicts in the guide use live measurements and belong to a qualified technician. If F3 persists after a power-cycle, switch the unit off and call a qualified technician — never attempt refrigerant or high-voltage work without the proper qualifications.</p><p>Never open an appliance that is connected to power, never bypass a safety device, and never attempt gas, refrigerant or high-voltage work without the proper qualifications. If anything feels beyond a basic external check, stop and call a qualified technician.</p></div>
+<h2>Frequently asked questions</h2><div class="faq">
+<h3>What does F3 mean on a Midea air conditioner?</h3><p>F3 means the discharging air / compressor discharge temperature sensor T5 is open circuit or short circuit: the sensor that measures the hot discharge line at the outdoor unit has failed, so its sampling voltage falls below 0.06V or rises above 4.94V. The Midea High Wall Fault Diagnosis Guide defines it this way in its E4/E5/F1/F2/F3 section, and the Owner&#x27;s Manual 16122500000082 lists it as discharging air temperature sensor error, timer lamp ON, running lamp 4 flashes.</p>
+<h3>How do I clear Midea F3?</h3><p>Switch the unit off and back on — if F3 was a transient detection glitch it clears. If it returns, the fault is genuine: the manual&#x27;s tree is connections first, then sensor resistance (against the T5 curve, not the indoor-sensor curve), then the sensor, then the outdoor PCB. The discharge sensor sits on the hot, refrigerant-adjacent outdoor circuit, so everything past a power-cycle is technician work; there is no deeper home fix.</p>
+<h3>Is Midea F3 the same as P2?</h3><p>No — F3 is a sensor-circuit fault (T5 open/short), while P2 is a compressor-top high-temperature protection trip. F3 says the discharge reading itself is missing or impossible; P2 says the compressor top actually got too hot. They need different diagnosis, so do not treat an F3 as an overheating trip or vice versa.</p>
+<h3>How do I tell F3 from F1 or F2?</h3><p>By the running-lamp flash count with the timer lamp ON: F1 flashes twice (T4 outdoor ambient), F2 flashes three times (T3 outdoor coil), F3 flashes four times (T5 discharge). On a display model the code itself is shown.</p>
+<h3>Why is the discharge sensor special?</h3><p>It watches the hottest point in the refrigeration circuit, and its resistance curve is different from the other sensors — the High Wall guide plots T5 on a higher curve than T1/T2/T3/T4. A technician checking T5 against the wrong curve would misdiagnose a good sensor, which is one reason this fault belongs to a qualified technician.</p>
+</div>
+<h2>Related error codes &amp; guides</h2>
+<ul class="related-list">
+<li><a href="../../midea/air-conditioner/e4.html">Midea Air Conditioner Error E4</a></li>
+<li><a href="../../midea/air-conditioner/e1.html">Midea Air Conditioner Error E1</a></li>
+<li><a href="../../midea/air-conditioner/ec.html">Midea Air Conditioner Error EC</a></li>
+<li><a href="../../guides/when-to-call-technician.html">Guide: When to Call a Qualified Technician</a></li>
+<li><a href="../../categories/air-conditioners.html">All Air Conditioner error codes</a></li>
+</ul>
+<p class="source-line">Meaning checked against: Midea High Wall System Error Codes and Fault Diagnosis Guide (E4/E5/F1/F2/F3 section, incl. T5-curve note); Midea Air Conditioner Owner&#x27;s Manual 16122500000082 (F3, timer ON, running lamp 4 flashes); Midea Service Manual section 9.3.5; Neola Midwall Inverters table (F3, T5, 4 flashes). Last verified: 2026-10-25. This page is general guidance for the model families named above — your exact model's official manual always wins. This site is not affiliated with Midea.</p>
+</article></main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h3>Appliance Error Codes &amp; Troubleshooting</h3>
+        <p>Error-code meanings, causes and safe checks — verified against manufacturer manuals, model family by model family. This is an independent guide site and is not affiliated with any appliance manufacturer.</p>
+      </div>
+      <div>
+        <h3>Site</h3>
+        <ul>
+          <li><a href="../../about.html">About Us</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+          <li><a href="../../error-codes.html">All Error Codes</a></li>
+          <li><a href="../../sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Legal &amp; Safety</h3>
+        <ul>
+          <li><a href="../../privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../../terms.html">Terms of Use</a></li>
+          <li><a href="../../disclaimer.html">Disclaimer</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-base">Error-code meanings vary by model. Always consult your exact model's official manual before attempting any repair. Never open an appliance that is connected to power, and never attempt gas or high-voltage work without proper qualifications.</p>
+  </div>
+</footer>
+<script>window.SITE_BASE = "../../";</script>
+<script src="../../script.js" defer></script>
+</body>
+</html>
