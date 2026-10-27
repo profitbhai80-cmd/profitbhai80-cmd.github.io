@@ -1055,6 +1055,116 @@
       "path": "daewoo/refrigerator/r1.html",
       "source": "Daewoo FRS-2011/2031 Service Manual section 6 (r1: R-sensor disconnection/short, ambient work-rate fallback, auto-clear); Daewoo FRSU21DFV User Manual section 5 (r1 check point: resistance after separating CN14, replace refrigerator-compartment sensor); Daewoo FRS20 User Manual section 5 (r1: Lo/Hi, CN7/CN14); Daewoo IWD/KAN58 repair manual section 7.1 (r1: refrigerator compartment sensor)",
       "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "dishwashers",
+      "code": "E2",
+      "meaning": "E2 = the dishwasher does not fill with water (XS family only; short audio signal, or 2 LED flashes with a 5-second pause on display-less models). Series split: on DW9/DW12/HDW12 families E2 is paired with E6 as 'contact the nearest authorized service center' with no fault meaning, so DW/HDW owners must not follow the XS fill diagnosis as their E2 meaning.",
+      "path": "haier/dishwasher/e2.html",
+      "source": "Haier XS 6B0M3PDB User Manual §19 (manua.ls, p.45); Haier XS 6B0S3FSB User Manual §19 (manua.ls); Haier DW9-UFE3 User's Manual (manualzilla, E2/E6 service line); Haier DW12-TFE1/DW12-TFE2 User Manual (manualsdump, E2/E6 service line)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "E3",
+      "meaning": "E3 = temperature sensor failure of the meat & fish zone (variable-temperature drawer). SCOPED: E3 exists only on models with a meat & fish zone or variable-temperature drawer; French-door MRF29D3 and four-door MDRF648FG manuals list no E3, so owners of those models must not use this page.",
+      "path": "midea/refrigerator/e3.html",
+      "source": "Midea Refrigerator User Manual: MERB345MG, MDRB470MG, MDRB521MGA; Midea MDRB521MIE02 User Manual; Midea MDRB593FGE/MDRB593FGE46 Combined Refrigerator User Manual; Midea variable-temperature-chamber refrigerator user manual (German edition)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "E4",
+      "meaning": "E4 = failure of the defrosting sensor in the refrigerating (fresh-food) chamber. SCOPED: E4 exists only on four-door / variable-temperature-chamber families, paired with E5 (freezing defrost sensor); the common combi families (MERB345MG, MDRB470MG, MDRB521MGA, MDRB521MIE02, MDRB593FGE) have no E4 at all.",
+      "path": "midea/refrigerator/e4.html",
+      "source": "Midea MDRF648FG Series Four Door Refrigerator User Manual; Midea variable-temperature-chamber refrigerator user manual (German edition); Midea variable-temperature-chamber refrigerator user manual (manuals.plus); Midea Service Manual REF MDRE411FGE01 (midea.com, E4 in troubleshooting group 11.2)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "F4",
+      "meaning": "F4 = the sensor at the bottom of the refrigerating (fresh-food) ice maker fails. SCOPED: F4 exists only on French-door models with a refrigerating-chamber ice maker; it is a sensor fault, distinct from F5 (ice maker fails to turn over ice), F6 (initialization failure), and EE (freezer ice-maker bottom sensor).",
+      "path": "midea/refrigerator/f4.html",
+      "source": "Midea MRF29D3AST/MRF29D3AWW/MRF29D3ABB French Door User Manual (midea.com); Midea MRF29D9BST French Door Series User Manual; Midea MRF29D6AST French Door Refrigerator Freezer User Manual; Midea Service Manual REF MDRE411FGE01 (midea.com, F4 in troubleshooting group 11.2)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "F5",
+      "meaning": "F5 = the refrigerating (fresh-food) ice maker fails to turn over (release) ice. SCOPED: F5 exists only on French-door models with a refrigerating-chamber ice maker; it is a mechanical harvest failure, distinct from F4 (bottom sensor), F6 (initialization failure), and EP (freezer ice-maker turn-over failure).",
+      "path": "midea/refrigerator/f5.html",
+      "source": "Midea MRF29D3AST/MRF29D3AWW/MRF29D3ABB French Door User Manual (midea.com); Midea MRF29D9BST French Door Series User Manual; Midea MRF29D6AST French Door Refrigerator Freezer User Manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "dishwashers",
+      "code": "E8",
+      "meaning": "E8 = diverter (distributary) valve fault: the machine does not detect the diverter valve signal for 15 seconds or accurate diverter positioning within 60 seconds. SCOPED: E8 is valid only for models equipped with a diverter valve (alternative washing function); during a washing program E8 is set off only after the program ends.",
+      "path": "midea/dishwasher/e8.html",
+      "source": "Midea Technical Service Manual MDWEB1403MB-WA (midea.com, official, diverter-validity note); Midea Dishwasher Technical Service Manual, 7601S platform (E8 definition, 15s/60s thresholds, machine reaction, inspection tree); Midea standard-version display-code dishwasher user manuals (E8: open circuit or break of distributary valve)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "F3",
+      "meaning": "F3 = defrosting return happened by time limit instead of by the D (defrost) sensor, so the defrost cycle timed out and Pre-cool mode in defrosting mode is deleted. Series split: 80-minute limit on FRS-2011/2031, FRS20 and FR-530NT/590NT; 50-minute limit on FRSU21DFV.",
+      "path": "daewoo/refrigerator/f3.html",
+      "source": "Daewoo FRS-2011/2031 Service Manual section 6 (F3: defrosting-return by 80-min time limit, Pre-cool deleted); Daewoo FRS20 User Manual section 5 (F3: 80-min limit, defrost heater resistance check); Daewoo FRSU21DFV User Manual section 5 (F3: 50-min limit); Daewoo IWD/KAN58 repair manual section 7.1 (F3: last defrost reset over time, not via freezer sensor; check heater and thermal fuse)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "F2",
+      "meaning": "F2 (wall-split) = indoor evaporator (indoor coil/tube) temperature sensor open circuit or short circuit. Series split: on U-Match / fan-coil families F2 instead means the outdoor condenser temperature sensor.",
+      "path": "gree/air-conditioner/f2.html",
+      "source": "Gree NEO09AC115V1A Neo Ductless Instruction Manual (F2: Indoor Coil Temp. Thermistor, Bad Connection or Indoor Coil Sensor Failure); Gree One-Way Cassette Owner's Manual section 7 (F2: indoor evaporator temperature sensor open/short circuited); Gree GJC08BU-A6NRNJ2A Window Instruction Manual (F2: indoor evaporator temperature sensor malfunction); Gree ETAC3-07HC230VA Terminal Manual (F2: indoor tube sensor, STATUS flash twice every 3s); Gree UMA30HP230V1ACS U-Match Table 6.1 (split: F2 = condenser temperature sensor error)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "F4",
+      "meaning": "F4 (wall-split) = outdoor condenser (outdoor coil/tube) temperature sensor open circuit or short circuit. Series split: on U-Match families F4 instead means the compressor discharge temperature sensor.",
+      "path": "gree/air-conditioner/f4.html",
+      "source": "Gree NEO09AC115V1A Neo Ductless Instruction Manual (F4: Outdoor Coil Temp. Thermistor, Bad Connection or Outdoor Coil Sensor Failure); Gree One-Way Cassette Owner's Manual section 7 (F4: outdoor condenser temperature sensor open/short circuited); Gree GJC08BU-A6NRNJ2A Window Instruction Manual (F4: outdoor condenser temperature sensor malfunction); Gree UMA30HP230V1ACS U-Match Table 6.1 (split: F4 = discharge temperature sensor error)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "F5",
+      "meaning": "F5 (wall-split) = compressor discharge (exhaust) temperature sensor open circuit or short circuit, not to be confused with E4 (high discharge temperature protection trip). Series split: on U-Match families F5 instead means the wired-controller temperature sensor.",
+      "path": "gree/air-conditioner/f5.html",
+      "source": "Gree NEO09AC115V1A Neo Ductless Instruction Manual (F5: Compressor Discharge Temp. Thermistor, Bad Connection or Discharge Sensor Failure); Gree One-Way Cassette Owner's Manual section 7 (F5: outdoor discharge temperature sensor open/short circuited); Gree UMA30HP230V1ACS U-Match Table 6.1 (split: F5 = temperature sensor error of wired controller); Gree ME33-42/G Owner's Manual p.30 (split: F5 = wired controller temperature sensor error)",
+      "status": "verified"
     }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
