@@ -934,6 +934,127 @@
       "path": "hisense/air-conditioner/e5.html",
       "source": "Hisense AP-12CR1SEPS User Manual; Hisense AP-10CR1SEPS User Manual; Hisense APC09 User Manual; Hisense Portable Air Conditioner Use and Installation Instructions (manuals.plus, multiple portable models); Hisense Portable Air Conditioner User Manual model B08LP358RZ",
       "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "dishwashers",
+      "code": "E1",
+      "meaning": "E1 = the door is not closed properly (DW9/DW12/HDW12 families; buzzer: 10 short signals every 30 seconds). Series split: the newer XS family has no E1 (its fill fault is E2), and the US HDBL655AFS family's E1 is a longer-inlet-time fill code, not a door code.",
+      "path": "haier/dishwasher/e1.html",
+      "source": "Haier DW9-UFE3 User's Manual (manualzilla); Haier DW12-TFE3-F User Manual (manualmachine); Haier DW12-TFE5 User Manual (manualmachine); Haier DW12-TFE 3-E User Manual FAQ (manua.ls); Haier DW12-TFE1/DW12-TFE2 User Manual (manualsdump); Haier HDW12-TFE3WH/SS User Manual (manualmachine)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "dishwashers",
+      "code": "E3",
+      "meaning": "E3 = the drain hose is too low (DW9/DW12/HDW12 families; buzzer: 10 short signals every 30 seconds; installation range 40-100 cm for the hose free end) / the dishwasher does not drain water (XS family: drain pipe bent, trapped or blocked, filter clogged, siphon clogged). E3 is E4's mirror: too low is E3, too high/crimped is E4.",
+      "path": "haier/dishwasher/e3.html",
+      "source": "Haier DW9-UFE3 User's Manual (manualzilla); Haier DW12-TFE3-F User Manual (manualmachine); Haier DW12-TFE5 User Manual (manualmachine); Haier HDW12-TFE3WH/SS User Manual (manualmachine); Haier XS 6B0M3PDB User Manual §19 (manua.ls); Haier XS 6B0S3FSB User Manual §19 (manua.ls); Haier DW12-EBE4TIS/DW12-EBM User Manual (40-100 cm drain-hose range)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "dishwashers",
+      "code": "E5",
+      "meaning": "E5 = water-supply fault (DW9/DW12/HDW12 families; buzzer: 10 short signals every 30 seconds): check the water is turned on and the hose connected properly, the house supply is on with sufficient pressure, the supply hose is not crimped or bent, and the supply-hose filter is not clogged. Series split: the XS family has no E5 (its fill fault is E2).",
+      "path": "haier/dishwasher/e5.html",
+      "source": "Haier DW9-UFE3 User's Manual (manualzilla); Haier DW12-TFE1/DW12-TFE2 User Manual (manualsdump, p.23); Haier DW12-TFE3-F User Manual (manualmachine); Haier DW12-TFE5 User Manual (manualmachine); Haier HDW12-TFE3WH/SS User Manual (manualmachine)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "dishwashers",
+      "code": "E3",
+      "meaning": "E3 = heating exceed pre-set time: the heating element has worked for 60 minutes but the water temperature detected by the NTC has not reached the desired value, after which the drain pump runs until the flowmeter is motionless for 2 minutes, all other components stop, and the buzzer alarms for 30 seconds.",
+      "path": "midea/dishwasher/e3.html",
+      "source": "Midea Technical Service Manual MDWEB1403MB-WA (midea.com, official); Midea Dishwasher Technical Service Manual, 7601S platform (E3 definition, machine reaction, inspection tree and troubleshooting table); Midea standard-version display-code dishwasher user manuals (E3: not reaching required temperature)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "E2",
+      "meaning": "E2 = temperature sensor failure of the freezing (freezer) chamber; wording varies by family (freezer drawer, freezing chamber, freezer room) but the sensor zone is identical, and it is not the fresh-food sensor (E1) or the ambient sensor (E7).",
+      "path": "midea/refrigerator/e2.html",
+      "source": "Midea Refrigerator User Manual: MERB345MG, MDRB470MG, MDRB521MGA; Midea MDRB521MIE02 User Manual; Midea MDRB593FGE/MDRB593FGE46 Combined Refrigerator User Manual; Midea MDRF648FG Series Four Door User Manual; Midea MRF29D3AST/MRF29D3AWW/MRF29D3ABB French Door User Manual (midea.com); Midea MRF29D9BST French Door Series User Manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "E5",
+      "meaning": "E5 = failure of the defrost sensor (defrost sensor detection circuit) of the freezing (freezer) chamber; it is a defrost fault, not the freezer temperature sensor (E2), and on four-door models it pairs with E4 (fresh-food defrost sensor) while on combi models it is the only defrost code.",
+      "path": "midea/refrigerator/e5.html",
+      "source": "Midea Refrigerator User Manual: MERB345MG, MDRB470MG, MDRB521MGA; Midea MDRB521MIE02 User Manual; Midea MDRB593FGE/MDRB593FGE46 Combined Refrigerator User Manual; Midea MDRF648FG Series Four Door User Manual; Midea MRF29D3AST/MRF29D3AWW/MRF29D3ABB French Door User Manual (midea.com); Midea MRF29D9BST/MRF29D6AST French Door User Manuals",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "E6",
+      "meaning": "E6 = communication error between the main control board and the display board; it is universal across checked refrigerator families with no scope split, and it is not CA (main board to ice-making board communication, French-door ice-maker models only).",
+      "path": "midea/refrigerator/e6.html",
+      "source": "Midea Refrigerator User Manual: MERB345MG, MDRB470MG, MDRB521MGA; Midea MDRB521MIE02 User Manual; Midea MDRB593FGE/MDRB593FGE46 Combined Refrigerator User Manual; Midea MDRF648FG Series Four Door User Manual; Midea MRF29D3AST/MRF29D3AWW/MRF29D3ABB French Door User Manual (midea.com); Midea MRF29D9BST French Door Series User Manual; Midea Service Manual REF MDRE411FGE01 (midea.com, E6 section 11.3)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "E3",
+      "meaning": "E3 = compressor low-pressure protection, including refrigerant-lacking protection and refrigerant-collecting (recovery) mode; the system stops when suction pressure falls below the protection value (floor-standing service manual: below -41C equivalent), and E3 during refrigerant recovery is a normal mode, not a fault.",
+      "path": "gree/air-conditioner/e3.html",
+      "source": "Gree One-Way Cassette Air Conditioner Owner's Manual section 7 (E3: compressor low pressure protection, refrigerant lack protection and refrigerant collecting mode); Gree Floor Standing Type Split Air Conditioner Units Service Manual section 28 (E3 system low pressure protection, all models, suction below -41C, seven-cause tree); Gree UMA30HP230V1ACS U-Match Installation Manual Table 6.1 (E3: same wording); Gree Zone Controller Owner's Manual (E3: compressor low pressure protection, low refrigerant)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "F3",
+      "meaning": "F3 = outdoor ambient temperature sensor open circuit or short circuit; unusually, wall-split and U-Match numbering agree on F3, so there is no platform split for this code.",
+      "path": "gree/air-conditioner/f3.html",
+      "source": "Gree NEO09AC115V1A Neo Ductless Instruction Manual (F3: Outdoor Air Temp. Thermistor, Bad Connection or Outdoor Ambient Sensor Failure); Gree One-Way Cassette Owner's Manual section 7 (F3: outdoor ambient temperature sensor open/short circuited); Gree UMA30HP230V1ACS U-Match Installation Manual Table 6.1 (F3: outdoor ambient temperature sensor error); Gree ME33-42/G Owner's Manual p.30 (F3: outdoor ambient temperature sensor error)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "F1",
+      "meaning": "F1 = freezer (F) sensor disconnection or short circuit, shown as Lo for disconnection and Hi for short circuit; while faulty, the compressor and freezer fan cycle 25 minutes ON / 25 minutes OFF, and the code clears automatically once the sensor reads normal.",
+      "path": "daewoo/refrigerator/f1.html",
+      "source": "Daewoo FRS-2011/2031 Service Manual section 6 (F1: F-sensor disconnection/short, 25 min ON/OFF control); Daewoo FRSU21DFV User Manual section 5 (F1 check point: resistance across terminals after separating CN15, replace freezer-compartment F-sensor); Daewoo FRS20 User Manual section 5 (same F1 definition, CN8/CN15); Daewoo IWD/KAN58 repair manual section 7.1 (F1: freezer compartment sensor)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "r1",
+      "meaning": "r1 = refrigerator-compartment (R) sensor disconnection or short circuit, shown as Lo for disconnection and Hi for short circuit; while faulty, control falls back to the ambient-temperature work-rate table, and the code clears automatically once the sensor reads normal.",
+      "path": "daewoo/refrigerator/r1.html",
+      "source": "Daewoo FRS-2011/2031 Service Manual section 6 (r1: R-sensor disconnection/short, ambient work-rate fallback, auto-clear); Daewoo FRSU21DFV User Manual section 5 (r1 check point: resistance after separating CN14, replace refrigerator-compartment sensor); Daewoo FRS20 User Manual section 5 (r1: Lo/Hi, CN7/CN14); Daewoo IWD/KAN58 repair manual section 7.1 (r1: refrigerator compartment sensor)",
+      "status": "verified"
     }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
