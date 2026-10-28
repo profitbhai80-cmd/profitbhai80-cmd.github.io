@@ -1165,6 +1165,138 @@
       "path": "gree/air-conditioner/f5.html",
       "source": "Gree NEO09AC115V1A Neo Ductless Instruction Manual (F5: Compressor Discharge Temp. Thermistor, Bad Connection or Discharge Sensor Failure); Gree One-Way Cassette Owner's Manual section 7 (F5: outdoor discharge temperature sensor open/short circuited); Gree UMA30HP230V1ACS U-Match Table 6.1 (split: F5 = temperature sensor error of wired controller); Gree ME33-42/G Owner's Manual p.30 (split: F5 = wired controller temperature sensor error)",
       "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "rt",
+      "meaning": "rt = room/ambient-temperature (RT) sensor disconnection or short circuit, shown as Lo for disconnection and Hi for short; the sensor sits on the main PCB, checked by voltage at point 'A' (0.5V–4.5V normal, 0V short, 5V disconnected), and the code clears automatically once the sensor reads normal.",
+      "path": "daewoo/refrigerator/rt.html",
+      "source": "Daewoo FRSU21DFV User Manual §5; Daewoo FRS20 User Manual §5; Daewoo FRS-2011/2031 Service Manual §6; Daewoo FR-530NT/590NT Manual §6; Daewoo IWD/KAN58 repair manual §7.1",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "d1",
+      "meaning": "d1 = defrost (D) sensor — the evaporator sensor — disconnection or short circuit (Lo/Hi); while faulty, defrost return is governed by a time limit (30 min most families, 40 min FR-530NT/590NT) instead of the sensor, and the code clears automatically once the sensor reads normal.",
+      "path": "daewoo/refrigerator/d1.html",
+      "source": "Daewoo FRSU21DFV User Manual §5; Daewoo FRS20 User Manual §5; Daewoo FRS-2011/2031 Service Manual §6; Daewoo FR-530NT/590NT Manual §6; Daewoo IWD/KAN58 repair manual §7.1",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "C1",
+      "meaning": "C1 = abnormal refrigeration cycle: compressor works for over 3 hours while the D-sensor temperature stays above -5°C; the manuals' check point is refrigerant leakage, control is normal running, and the code terminates when the D-sensor falls below -5°C while the compressor is off.",
+      "path": "daewoo/refrigerator/c1.html",
+      "source": "Daewoo FRSU21DFV User Manual §5; Daewoo FRS20 User Manual §5; Daewoo FRS-2011/2031 Service Manual §6; Daewoo FR-530NT/590NT Manual §6; Daewoo FR-3502 Service Manual §6; Daewoo FRS-T20DA manual §6",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "dr",
+      "meaning": "dr = refrigerator (R) door sensed open for more than 1 hour; check first whether the door is actually open, ajar, or blocked, then whether the R-door switch is stuck reporting open; door-switch sensing is suspended while active and the code terminates automatically once an open-and-close is sensed.",
+      "path": "daewoo/refrigerator/dr.html",
+      "source": "Daewoo FRSU21DFV User Manual §5; Daewoo FRS20 User Manual §5; Daewoo FRS-2011/2031 Service Manual §6; Daewoo FR-3502 Service Manual §6; Daewoo FRS-T20DA manual §6; Daewoo IWD/KAN58 repair manual §7.1",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "dF",
+      "meaning": "dF = freezer (F) door sensed open for more than 1 hour; check first whether the door is actually open, ajar, or blocked by food or ice, then whether the F-door switch is stuck reporting open; door-switch sensing is suspended while active and the code terminates automatically once an open-and-close is sensed.",
+      "path": "daewoo/refrigerator/df.html",
+      "source": "Daewoo FRSU21DFV User Manual §5; Daewoo FRS20 User Manual §5; Daewoo FRS-2011/2031 Service Manual §6; Daewoo FR-3502 Service Manual §6; Daewoo FRS-T20DA manual §6; Daewoo IWD/KAN58 repair manual §7.1",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "F6",
+      "meaning": "F6 (wall-split) = limit / decrease frequency due to overload (overload, high-temperature resistance): all loads keep operating normally while the compressor's operating frequency is decreased; not a sensor fault, not a stop fault; U-Match has no F6, GMV VRF F6 is a compressor-2 discharge-sensor fault.",
+      "path": "gree/air-conditioner/f6.html",
+      "source": "Gree GWH Series Service Manual, Display Method entry 17; Gree Soyal Service Manual, same display table entry 17; GREE Inverter AC Service Manual (Bora inverter), same display table entry 17; Gree Livo+ LIVS12HP115V1A Service Manual §9.1",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "F8",
+      "meaning": "F8 (wall-split) = decrease frequency due to overcurrent: all loads keep operating normally while the compressor's operating frequency is decreased, because the input supply voltage is too low or the system pressure is too high and the system is overloaded; not a sensor fault, not a stop; U-Match has no F8, GMV VRF F8 is a discharge-sensor fault.",
+      "path": "gree/air-conditioner/f8.html",
+      "source": "Gree GWH Series Service Manual, Display Method entry 18; Gree Soyal Service Manual, same display table entry 18; GREE Inverter AC Service Manual (Bora inverter), same display table entry 18; Gree Livo+ LIVS12HP115V1A Service Manual §9.1",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "F9",
+      "meaning": "F9 (wall-split) = decrease frequency due to high air discharge (high exhaust/discharge temperature limit): all loads keep operating normally while the compressor's operating frequency is decreased, because of overload or temperature too high, insufficient refrigerant, or a malfunctioning electric expansion valve (EKV); not F5 (sensor) and not E4 (protection trip); U-Match has no F9, GMV VRF F9 is a compressor-5 discharge-sensor fault.",
+      "path": "gree/air-conditioner/f9.html",
+      "source": "Gree GWH Series Service Manual, Display Method entry 19; Gree Soyal Service Manual, same display table entry 19; GREE Inverter AC Service Manual (Bora inverter), same display table entry 19; Gree Livo+ LIVS12HP115V1A Service Manual §9.1",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "H4",
+      "meaning": "H4 = system overload protection (system abnormal, overload / high-temperature resistance): when the tube temperature gets too high — outdoor heat-exchanger temperature in cooling, indoor heat-exchanger temperature in heating — the protection activates; in cooling/drying the compressor stops while the indoor fan keeps running, and in heating the whole unit stops; manual causes: outdoor temperature too high when cooling, insufficient outdoor air circulation, refrigerant flow malfunction; GMV VRF H4 is fan drive PFC protection.",
+      "path": "gree/air-conditioner/h4.html",
+      "source": "Gree GWH Series Service Manual, Display Method entry 34; Gree Soyal Service Manual, same display table; Gree GWHD Linge Wind Series Service Manual (GWHD12A6ND31A), malfunction-analysis item 6; Gree UMA30HP230V1ACS U-Match Table 6.1; Gree ME33-42/G Owner's Manual p.30",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "dishwashers",
+      "code": "E9",
+      "meaning": "E9 = a button/touch key held down for more than 30 seconds — a stuck touch key on touch-key models only; manual's fix: check for foreign objects on the button, clean it, then power on again; NOT in the 7601S platform valid-code list.",
+      "path": "midea/dishwasher/e9.html",
+      "source": "Midea Dishwasher Technical Service Manual (manuals.plus fa1e variant); Midea WQP8-W3908T-CN Dishwasher Quick Start Guide; Midea Dishwasher Technical Service Manual, 7601S platform",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "dishwashers",
+      "code": "E8",
+      "meaning": "E8 (XS/XF) = water heating element not working correctly or filter plate clogged; manual's fix: clean the filter plate. SPLIT: XPI8D9FFB E8 = leak (drain pump runs permanently, anti-overflow device on).",
+      "path": "haier/dishwasher/e8.html",
+      "source": "Haier XS 6B0M3PDB User Manual §19; Haier XS 6B0S3FSB User Manual §19; Haier XF 4A4M4BX-80 User Manual §19; Haier XPI8D9FFB User Manual p.153 (split)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "dishwashers",
+      "code": "E18",
+      "meaning": "E18 (XS) = water-level problems; check clogged filter plate, clean the filter plate; if it continues or recurs, contact the Technical Assistance Centre. Not Bosch E18 (drain fault). Display-less models: 18 flashes.",
+      "path": "haier/dishwasher/e18.html",
+      "source": "Haier XS 6B0M3PDB User Manual §19; Haier XS 6B0S3FSB User Manual §19; Haier XF 4A4M4BX-80 User Manual §19",
+      "status": "verified"
     }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
