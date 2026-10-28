@@ -1297,6 +1297,83 @@
       "path": "haier/dishwasher/e18.html",
       "source": "Haier XS 6B0M3PDB User Manual §19; Haier XS 6B0S3FSB User Manual §19; Haier XF 4A4M4BX-80 User Manual §19",
       "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "F6",
+      "meaning": "F6 = the initialization of the refrigerating (fresh-food) ice maker fails — the maker never completes its start-up sequence. Not F5 (harvest/turn-over failure) and not E0 (freezer initialization failure).",
+      "path": "midea/refrigerator/f6.html",
+      "source": "Midea MRF29D3AST/AWW/ABB User Manual fault table (midea.com); Midea MRF29D9BST French Door Series User Manual fault table (manuals.plus); Midea MRF29D6AST French Door Refrigerator Freezer User Manual fault table (manuals.plus)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "EP",
+      "meaning": "EP = the freezer ice maker fails to turn over (release) its ice — a mechanical harvest failure of the freezer maker. Freezer counterpart of F5. On single-ice-maker families the same code is worded generically as the (only) ice maker failing to drop/separate ice.",
+      "path": "midea/refrigerator/ep.html",
+      "source": "Midea MRF29D9BST French Door Series User Manual fault table (manuals.plus); Midea MRF29D6AST French Door Refrigerator Freezer User Manual fault table (manuals.plus); Midea MDRS925CIE46M User Manual fault table (midea.com); Midea MRQ23B4AST Owner's Manual fault table (manuals.plus)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "EE",
+      "meaning": "EE = the sensor at the bottom of the freezer ice maker fails. Freezer counterpart of F4 (fresh-food bottom sensor). On single-ice-maker families the same code is worded generically as 'ice maker sensor fault'.",
+      "path": "midea/refrigerator/ee.html",
+      "source": "Midea MRF29D9BST French Door Series User Manual fault table (manuals.plus); Midea MRF29D6AST French Door Refrigerator Freezer User Manual fault table (manuals.plus); Midea MDRS925CIE46M User Manual fault table (midea.com)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "CC",
+      "meaning": "CC = the defrosting sensor in the ice-making chamber fails. Not C9 (chamber temperature sensor) and not E5/E4 (freezer/fresh-food defrost sensors).",
+      "path": "midea/refrigerator/cc.html",
+      "source": "Midea MRF29D3AST/AWW/ABB User Manual fault table (midea.com); Midea MRF29D9BST French Door Series User Manual fault table (manuals.plus); Midea MRF29D6AST French Door Refrigerator Freezer User Manual fault table (manuals.plus)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "C9",
+      "meaning": "C9 = the sensor in the ice-making chamber fails (MRF29D9BST English table: the temperature sensor in the ice-making chamber). Not CC (chamber defrost sensor). One French-language D9BST copy words C9 as a defrost sensor; the English tables distinguish CC from C9 and are followed here.",
+      "path": "midea/refrigerator/c9.html",
+      "source": "Midea MRF29D3AST/AWW/ABB User Manual fault table (midea.com); Midea MRF29D9BST French Door Series User Manual fault table, English (manuals.plus); Midea MRF29D6AST French Door Refrigerator Freezer User Manual fault table (manuals.plus)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "CA",
+      "meaning": "CA = the communication between the main control board and the ice-making board fails. NOT E6: E6 is the display-board to main-control-board link — a different link, different boards, different repair.",
+      "path": "midea/refrigerator/ca.html",
+      "source": "Midea MRF29D3AST/AWW/ABB User Manual fault table (midea.com); Midea MRF29D9BST French Door Series User Manual fault table (manuals.plus); Midea MRF29D6AST French Door Refrigerator Freezer User Manual fault table (manuals.plus); Midea MRQ22D7AST fault table (manualsfile)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "dH",
+      "meaning": "dH = the home-bar door switch is defective — the small home-bar door in the refrigerator door is sensed open for an hour or longer. Not dr (refrigerator door) or dF (freezer door). Only applies to dispenser models that have a home bar.",
+      "path": "daewoo/refrigerator/dh.html",
+      "source": "Daewoo FRS-20 Fridge Freezer Operating Instructions / FRS-U20 Service Manual, section 4-10-2 Dispenser Model (CLED Display of Front PCB), Error Code table (manuals.plus / scribd copies)",
+      "status": "verified"
     }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
