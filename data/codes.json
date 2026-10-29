@@ -1374,6 +1374,138 @@
       "path": "daewoo/refrigerator/dh.html",
       "source": "Daewoo FRS-20 Fridge Freezer Operating Instructions / FRS-U20 Service Manual, section 4-10-2 Dispenser Model (CLED Display of Front PCB), Error Code table (manuals.plus / scribd copies)",
       "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "Et",
+      "meaning": "Et (Ft on FRS-2011/2031) = level switch error — no pulse sensed, supply mode skipped.",
+      "path": "daewoo/refrigerator/et.html",
+      "source": "Daewoo FRSU21DFV User Manual section 5; Daewoo FRS-20 User Manual section 5; Daewoo FRS-2011/2031 Service Manual section 6",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "Eu",
+      "meaning": "Eu = full-ice switch error — drop motor rotates only 90 degrees.",
+      "path": "daewoo/refrigerator/eu.html",
+      "source": "Daewoo FRSU21DFV User Manual section 5; Daewoo FRS-20 User Manual section 5; Daewoo FRS-2011/2031 Service Manual section 6",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "EI",
+      "meaning": "EI = ice-maker I-sensor disconnected (Lo) or shorted (Hi); CN11 check.",
+      "path": "daewoo/refrigerator/ei.html",
+      "source": "Daewoo FRSU21DFV User Manual section 5; Daewoo FRS-20 User Manual section 5; Daewoo FRS-2011/2031 Service Manual section 6",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "Ea",
+      "meaning": "Ea = ice-drop motor malfunction (test-switch check). EA also covered: level-sensor timing fault, ice maker paused.",
+      "path": "daewoo/refrigerator/ea.html",
+      "source": "Daewoo FRSU21DFV User Manual section 5; Daewoo FRS-20 User Manual section 5; Daewoo FRS-2011/2031 Service Manual section 6",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "ES",
+      "meaning": "ES = dispenser micro-switch error — sensed continuously for 1 minute; dispenser stops.",
+      "path": "daewoo/refrigerator/es.html",
+      "source": "Daewoo FRSU21DFV User Manual section 5; Daewoo FRS-20 User Manual section 5; Daewoo FRS-2011/2031 Service Manual section 6",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "EF",
+      "meaning": "EF = flow-sensor error — no pulse while water should flow; timed supply fallback.",
+      "path": "daewoo/refrigerator/ef.html",
+      "source": "Daewoo FRSU21DFV User Manual section 5; Daewoo FRS-20 User Manual section 5; Daewoo FRS-2011/2031 Service Manual section 6",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "Eg",
+      "meaning": "Eg = I-sensor temperature does not rise 5 minutes after water supply.",
+      "path": "daewoo/refrigerator/eg.html",
+      "source": "Daewoo FRSU21DFV User Manual section 5; Daewoo FRS-20 User Manual section 5; Daewoo FRS-2011/2031 Service Manual section 6",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "dishwashers",
+      "code": "EC",
+      "meaning": "EC = BLDC wash-pump fault — reveal subcode L0-L6 by 5-second button hold.",
+      "path": "midea/dishwasher/ec.html",
+      "source": "Midea Dishwasher Service Manual MDWEF1433DW-SS-WA (midea.com); Midea Dishwasher Service Manual MDWEB1403MB-WA (midea.com); Midea Dishwasher Technical Service Manual (manuals.plus)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "dishwashers",
+      "code": "Ed",
+      "meaning": "Ed = communication failure main board to display board, 20-second trigger.",
+      "path": "midea/dishwasher/ed.html",
+      "source": "Midea Dishwasher Technical Service Manual (manuals.plus, 7601S family); Midea Smart Dishwasher with WiFi User Manual model 340607; Midea MDC22P2ASS Dishwasher User Manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "dishwashers",
+      "code": "Ed",
+      "meaning": "Ed = communication failure main PCB to display PCB, open/broken wiring.",
+      "path": "hisense/dishwasher/ed.html",
+      "source": "Hisense HSCE14FS/HSCE14FB Instruction Manual (manualspro); Hisense HSCM15FS User's Operation Manual page 49 (manualslib)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "FH",
+      "meaning": "FH (wall-split) = limit/decrease frequency due to antifreezing; keeps running slower.",
+      "path": "gree/air-conditioner/fh.html",
+      "source": "Gree GWH Series Service Manual display table entry 20; Gree Soyal Service Manual same entry; GREE Inverter AC Service Manual (Bora) same entry",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "P3",
+      "meaning": "P3 (indoor display) = outdoor temperature too low protection; thresholds split by family.",
+      "path": "midea/air-conditioner/p3.html",
+      "source": "Midea service manual section 9.1/9.3; Midea Luna Series DC Inverter manual section 9.1; Midea Air Conditioner Owner's Manual row 23; Midea R410A Duct Type Owner's Manual row 20",
+      "status": "verified"
     }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
