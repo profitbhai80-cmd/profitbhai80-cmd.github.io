@@ -1935,6 +1935,138 @@
       "path": "midea/air-conditioner/f6.html",
       "source": "Midea Air Conditioner Owner's Manual, error table row 16; Midea R410A Middle Static Pressure Duct Type Owner's Manual, Table 7-3 row 16; Midea Air Conditioner Error Codes page, cassette/ducted/underceiling current-generation indoor table",
       "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "F7",
+      "meaning": "F7 on a Midea cassette air conditioner means the indoor unit has lost communication with the auto-lifting panel — the motorized grille that lowers for filter cleaning.",
+      "path": "midea/air-conditioner/f7.html",
+      "source": "Midea Air Conditioner Error Codes and Troubleshooting Guide (Midea 24-page technical document; current-generation Cassette/Ducted/Underceiling indoor units) + Midea Air Conditioner Owner's Manual (Duct and Ceiling Type error table) + Midea Multi Outdoor Unit Service Manual, Revision C ODMI-E-1606 (MCH2U-18PHH2, MCH3U-27PHH2, MCH4U-36PHH2, MCH5U-48PHH2; cassette optional lift panel rows)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "F8",
+      "meaning": "F8 on a Midea cassette air conditioner means the auto-lifting panel itself is faulty — its motor or mechanism is not responding.",
+      "path": "midea/air-conditioner/f8.html",
+      "source": "Midea Air Conditioner Error Codes and Troubleshooting Guide (Midea 24-page technical document; current-generation Cassette/Ducted/Underceiling indoor units) + Midea Air Conditioner Owner's Manual (Duct and Ceiling Type error table) + Midea Multi Outdoor Unit Service Manual, Revision C ODMI-E-1606 (MCH2U-18PHH2, MCH3U-27PHH2, MCH4U-36PHH2, MCH5U-48PHH2; cassette optional lift panel rows)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "F9",
+      "meaning": "F9 on a Midea cassette air conditioner means the auto-lifting panel is not fully closed — usually after filter cleaning or if something blocks it.",
+      "path": "midea/air-conditioner/f9.html",
+      "source": "Midea Air Conditioner Error Codes and Troubleshooting Guide (Midea 24-page technical document; current-generation Cassette/Ducted/Underceiling indoor units) + Midea Air Conditioner Owner's Manual (Duct and Ceiling Type error table) + Midea Multi Outdoor Unit Service Manual, Revision C ODMI-E-1606 (MCH2U-18PHH2, MCH3U-27PHH2, MCH4U-36PHH2, MCH5U-48PHH2; cassette optional lift panel rows)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "washing-machines",
+      "code": "E27",
+      "meaning": "E27 = check the water drain hose installation. It is not the pump filter (E05) and not a leak (E12).",
+      "path": "beko/washing-machine/e27.html",
+      "source": "Beko user manuals BM3WFSU38213WPBB (doc 1911862482, EN, 20.03.24), BM3WFSU39413W, BM3WFSU48415WPBB2, BM1WFSU36233WPBB, BM3WFU410415WPBB, BM1WFSU37233WPBB (doc 1911863176_AA_UK_EN), BMW9149DB, BMGWU4941B, B3WFU4741WBG, WUE9726XBW, WUE7626XBWST, B5WF U78415 WB — failure-code table row 'E27: Check the water drain of the machine. See Connecting the drain hose to the drain section'",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "washing-machines",
+      "code": "E84",
+      "meaning": "E84 = the machine can't pair over Bluetooth (BLE) with the HomeWhiz app. Re-run the app pairing; it is not a Wi-Fi or main-board fault.",
+      "path": "beko/washing-machine/e84.html",
+      "source": "Beko user manuals BM3WFSU38213WPBB (doc 1911862482, EN, 20.03.24), BM3WFSU39413W, BM3WFSU48415WPBB2, BM1WFSU36233WPBB, BM3WFU410415WPBB, BM1WFSU37233WPBB (doc 1911863176_AA_UK_EN), BMW9149DB, BMGWU4941B, B3WFU4741WBG, WUE9726XBW, WUE7626XBWST, B5WF U78415 WB — failure-code table row 'E84: BLE connection cannot be established. Check it, try connecting it. See HomeWhiz Feature and Remote Control Function section'",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "E7",
+      "meaning": "E7 = ambient temperature sensor error on most Midea fridge families — but on two models it means a temperature detection circuit fault instead. Check your model.",
+      "path": "midea/refrigerator/e7.html",
+      "source": "Midea MRQ23P4AST French-Door Bottom Mount User Manual (midea.com official PDF, v.A 07-2021); Midea MDRS791MIE/MDRS791MIC Side-by-Side User Manual (manuals.plus); Midea MERB345MG/MDRB470MG/MDRB521MGA User Manual (manuals.plus); Midea MDRB593FGE/MDRB593FGF Bottom Freezer Manual (manualspro.net); Midea MRQ23BCAST French Door Manual (manuals.plus); Midea MRF23I5AST Built-In Manual (manuals.plus); Midea MDRB521MIE02 Manual (manua.ls); Midea MDRS925CIE46M Manual (midea.com official UK PDF); series-split wording from Midea MDRS619FIE Side-by-Side Manual (manuals.plus) and Midea MDRF632FGF46APD Manual (manualslib.com)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "EH",
+      "meaning": "EH = the humidity (moisture) sensor has failed. Same fault, two wordings — 'humidity sensor' on some models, 'moisture sensor' on others.",
+      "path": "midea/refrigerator/eh.html",
+      "source": "Midea MRQ23P4AST French-Door Bottom Mount User Manual (midea.com official PDF, v.A 07-2021); Midea MRQ23BCAST French Door Series User Manual (manuals.plus); Midea MRF29D3AST/MRF29D3AWW/MRF29D3ABB French Door User Manual (manualsdir.com); Midea MRF23I5AST Built-In Refrigerator User Manual (manuals.plus); moisture wording from Midea MDRF632FGF46APD User Manual (manualslib.com) and Midea MERF402FIE User Manual (manuals.plus)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "E0",
+      "meaning": "E0 = ice maker fault on ice-maker-equipped Midea fridges. Not the air-conditioner E0 (EEPROM) — same code, different appliance, different fault.",
+      "path": "midea/refrigerator/e0.html",
+      "source": "Midea MDRS925CIE46M Side-by-Side User Manual fault table (midea.com official UK PDF); Midea MRS26D5AST Side-by-Side User Manual ERROR CODES table, version E 01-2024 (manuals.plus); Midea Service Manual REF MDRE411FGE01, BMF No Frost Series, E0 troubleshooting tree (midea.com official PDF)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "L3",
+      "meaning": "L3 = freezer fan fault — the freezer fan has stopped working. Check L4 too: that's the fan running at the wrong speed, a different code.",
+      "path": "midea/refrigerator/l3.html",
+      "source": "Midea MDRS925CIE46M Side-by-Side User Manual fault table (midea.com official UK PDF); Midea MDRB600MIC46P User Manual fault table (midea.com official PDF); Midea MRS25I7BST Side-by-Side User Manual fault table (manuals.plus); fan steps from Midea Service Manual REF MDRE411FGE01, BMF No Frost Series (midea.com official PDF)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "L4",
+      "meaning": "L4 = freezer fan speed is abnormal — the freezer fan is turning, but at the wrong speed. Different from L3, which means the fan has stopped.",
+      "path": "midea/refrigerator/l4.html",
+      "source": "Midea MDRS925CIE46M Side-by-Side User Manual fault table (midea.com official UK PDF); Midea MDRB600MIC46P User Manual fault table (midea.com official PDF); Midea MRS25I7BST Side-by-Side User Manual fault table (manuals.plus); fan steps from Midea Service Manual REF MDRE411FGE01, BMF No Frost Series (midea.com official PDF)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "L5",
+      "meaning": "L5 = condenser fan fault — the fan that cools the condenser near the compressor has failed. Not the freezer fan (that's L3/L4).",
+      "path": "midea/refrigerator/l5.html",
+      "source": "Midea MDRS925CIE46M Side-by-Side User Manual fault table (midea.com official UK PDF); Midea MDRB600MIC46P User Manual fault table (midea.com official PDF); Midea MRS25I7BST Side-by-Side User Manual fault table (manuals.plus)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "L6",
+      "meaning": "L6 = condenser fan speed is abnormal — the condenser fan is turning, but at the wrong speed. Different from L5, which means the fan has stopped.",
+      "path": "midea/refrigerator/l6.html",
+      "source": "Midea MDRS925CIE46M Side-by-Side User Manual fault table (midea.com official UK PDF); Midea MDRB600MIC46P User Manual fault table (midea.com official PDF); Midea MRS25I7BST Side-by-Side User Manual fault table (manuals.plus)",
+      "status": "verified"
     }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
