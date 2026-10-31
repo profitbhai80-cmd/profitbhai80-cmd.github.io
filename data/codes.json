@@ -2067,6 +2067,28 @@
       "path": "midea/refrigerator/l6.html",
       "source": "Midea MDRS925CIE46M Side-by-Side User Manual fault table (midea.com official UK PDF); Midea MDRB600MIC46P User Manual fault table (midea.com official PDF); Midea MRS25I7BST Side-by-Side User Manual fault table (manuals.plus)",
       "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "D2",
+      "meaning": "Defrost-component fault on Daewoo's Spain-built no-frost combis (ERF-364/367 series) — defrost heater or temperature fuse open, or heavy evaporator frost; freezer red LED blinks twice.",
+      "path": "daewoo/refrigerator/d2.html",
+      "source": "Service Manual \"No-Frost Combi-Refrigerator ERF-364_367 ALL AR-EU MODELS\" — Daewoo Electronics Manufacturing Espana S.A., 2003 (covers ERF-364A..EU / ERF-367A..EU, ERF-384A..EU / ERF-387A..EU, ERF-394A..EU / ERF-397A..EU, ERF-414A..EU / ERF-417A..EU, plus R-600a ..AR range); Service Manual \"No-Frost Combi-Refrigerator\", Model ERF-416A — Daewoo Electronics Manufacturing Espana, S.A. (same D1/D2/R1/RT LED-error table; table verified via document crawls after one failed direct PDF fetch)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "E9",
+      "meaning": "High temperature alarm in the freezing chamber on Midea freezer lines (bottom-freezer BMF No Frost, upright and chest freezers) — an alarm, not a sensor fault.",
+      "path": "midea/refrigerator/e9.html",
+      "source": "Midea Service Manual REF MDRE411FGE01 (midea.com official PDF), Section 9.7 \"Error code and solutions\" — BMF No Frost Series; Market Model MDRE411FG, Product Model HD-390RWEN BI, Product Code CE-BCD300WX-JT 22031020011081 (direct PDF download from midea.com, 2026-10-31; §9.7 explicitly labelled \"Note: Midea full common fault code\"); Midea Upright Freezer Single Door Series User Manual (manuals.plus), model MDRU385MTE46; Midea MFR411W User Manual (manualsfile.com); Midea MF411W Upright Freezer User Manual (manuals.plus); Midea Chest Freezer Instruction Manual (worten.es, AF_Manual_Chest Freezer, 30/01/2018)",
+      "status": "verified"
     }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
