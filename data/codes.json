@@ -2089,6 +2089,50 @@
       "path": "midea/refrigerator/e9.html",
       "source": "Midea Service Manual REF MDRE411FGE01 (midea.com official PDF), Section 9.7 \"Error code and solutions\" — BMF No Frost Series; Market Model MDRE411FG, Product Model HD-390RWEN BI, Product Code CE-BCD300WX-JT 22031020011081 (direct PDF download from midea.com, 2026-10-31; §9.7 explicitly labelled \"Note: Midea full common fault code\"); Midea Upright Freezer Single Door Series User Manual (manuals.plus), model MDRU385MTE46; Midea MFR411W User Manual (manualsfile.com); Midea MF411W Upright Freezer User Manual (manuals.plus); Midea Chest Freezer Instruction Manual (worten.es, AF_Manual_Chest Freezer, 30/01/2018)",
       "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "dishwashers",
+      "code": "E9",
+      "meaning": "Touch-button fault on Haier HDBL655/HDBL865 24-inch built-in dishwashers: a button registered as pressed for longer than 30 seconds; cause is water or substance on the button.",
+      "path": "haier/dishwasher/e9.html",
+      "source": "Haier User Manual, Dishwasher HDBL655AFS (also covers HDBL655AFW, HDBL655AFB; 24-inch built-in, US, July 2015), section ERROR CODES, p.31; Haier User Manual, HDBL865ATS 24-inch Built-In Dishwasher (trilingual EN/FR/ES), section ERROR CODES, p.32. Support: Haier Consumer Help Line 1-877-377-3639",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "EF",
+      "meaning": "Water tank installation failure on Midea BMF No Frost (MDRE411FG) and SBS No Frost (MDRS925CIE46M) refrigerators — reseat the tank, check seat terminals and seat switch.",
+      "path": "midea/refrigerator/ef.html",
+      "source": "Midea Service Manual REF MDRE411FGE01 (midea.com official PDF), Section 9.7 Error code and solutions — BMF No Frost Series, Market Model MDRE411FG / HD-390RWEN BI / CE-BCD300WX-JT 22031020011081; Midea Service Manual — SBS No Frost Series, Section 8.6, Market Model MDRS925CIE46M / SA-BCD695WZ-JT / 92031050Z05922 (both midea.com official PDFs); corroborated by ZLINE RSM-W / RFM-W user manuals (rebadged Midea platform)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "washing-machines",
+      "code": "E9",
+      "meaning": "Series-split code: digitron top-loads (XQS/WM/HWM) — power voltage too high, unplug and wait for normal voltage; HWM200 series — communication failure between show board and power board, contact Customer Care.",
+      "path": "haier/washing-machine/e9.html",
+      "source": "Haier XQS70-98 user manual (p.18), XQS52-78 user manual (p.16), WM6002A user manual (p.18), HWM70-98 user manual, HWM90-98 user manual (p.18) — digitron top-load platform; Haier HWM200-M1990DD user manual (p.17), Haier HWM200-1678 troubleshooting table — HWM200 series",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "washing-machines",
+      "code": "Fb",
+      "meaning": "Water overflow on Haier front-load washers: base-pan leak float tripped, all functions shut down except the drain pump; manuals' first step is to close the tap immediately.",
+      "path": "haier/washing-machine/fb.html",
+      "source": "Haier HW70B1426S user manual; Haier INTELIUS 500 / HW80BD user manual; Haier HW80-BD16266 (Intelius 300) user manual p.11; Haier HW90B14266A user manual; Haier HWF75DW1 / HWF85DW1 user manual; Haier HWD100-BD1499U1 user manual; Haier HW08-CP1439S user manual; Haier HW100-BD14397U1S / HW110-BD14397U1S user manual Section 10",
+      "status": "verified"
     }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
