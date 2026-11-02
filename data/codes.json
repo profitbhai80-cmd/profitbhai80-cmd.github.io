@@ -2133,6 +2133,72 @@
       "path": "haier/washing-machine/fb.html",
       "source": "Haier HW70B1426S user manual; Haier INTELIUS 500 / HW80BD user manual; Haier HW80-BD16266 (Intelius 300) user manual p.11; Haier HW90B14266A user manual; Haier HWF75DW1 / HWF85DW1 user manual; Haier HWD100-BD1499U1 user manual; Haier HW08-CP1439S user manual; Haier HW100-BD14397U1S / HW110-BD14397U1S user manual Section 10",
       "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "refrigerators-freezers",
+      "code": "E8",
+      "meaning": "Defrost sensor fault in the variable chamber (BMF No Frost service manual + ZLINE cross-brand confirmation)",
+      "path": "midea/refrigerator/e8.html",
+      "source": "Midea Service Manual REF MDRE411FGE01 §9.7 (BMF No Frost, MDRE411FG) + ZLINE RFM-W / RSMZW36BSCB manuals",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Daewoo",
+      "brandSlug": "daewoo",
+      "category": "refrigerators-freezers",
+      "code": "E9",
+      "meaning": "Water supply error — icemaker/dispenser water-supply fault on FRS-platform side-by-sides",
+      "path": "daewoo/refrigerator/e9.html",
+      "source": "Daewoo Service Manual S/M FRS2011000 (FRS-2011/2031) + FRS-T20DA* service manual §5",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "washing-machines",
+      "code": "E11",
+      "meaning": "Water supply fault — water level cannot reach reset level within 5 min (XQG50/HWD1000 combo platform)",
+      "path": "haier/washing-machine/e11.html",
+      "source": "Haier XQG50-S1216 user manual + Haier HWD1000 washer & dryer user manual + Haier XQG50-S1016 operation manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "washing-machines",
+      "code": "E13",
+      "meaning": "Water-supply overfill — water above the warning level; technician-only (XQG50/HWD1000 combo platform)",
+      "path": "haier/washing-machine/e13.html",
+      "source": "Haier XQG50-S1216 user manual + Haier HWD1000 washer & dryer user manual + Haier XQG50-S1016 operation manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "washing-machines",
+      "code": "EI",
+      "meaning": "Drainage error, water not emptied — clean pump filter, check drain hose (4 manuals; B14979 shows it as E1/CLR FLTR)",
+      "path": "haier/washing-machine/ei.html",
+      "source": "Haier HW70-B1426/S + HW08-CP1439S + INTELIUS 500/HW80BD + HWD100-BD1499U1 user manuals",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "washing-machines",
+      "code": "F2",
+      "meaning": "Water overflow / overflow protection — top-load platform only; manuals route straight to Customer Care",
+      "path": "haier/washing-machine/f2.html",
+      "source": "Haier HWM90DD + HWM200-M1990DD + HWM100-316S6/S8 (download.haier.com) + GWT950AW + HWM200-1678 manuals",
+      "status": "verified"
     }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
