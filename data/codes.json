@@ -2604,7 +2604,7 @@
       "code": "E10",
       "meaning": "E10 (= A10 on newer displays) = water inlet / fill fault - tap closed, kinked hose, clogged filter, or low pressure; E11/E12 sub-codes folded in.",
       "path": "haier/dishwasher/e10.html",
-      "source": "Haier official \"Haier Dishwasher Fault Codes\" (support.haier.com.au) + Haier HDW15U3S1 / HDW14G2X user manuals",
+      "source": "Haier official \"Haier Dishwasher Fault Codes\" (support.haier.com.au) + Haier HDW15U3S1 / HDW14G2X user manuals; Haier HDW15F4B1 User Manual (p.32)",
       "status": "verified"
     },
     {
@@ -2637,7 +2637,7 @@
       "code": "E30",
       "meaning": "E30 (= F30) = overflow / anti-flood alarm - leak, inlet valve open and blocked, or blocked drain; switch off at wall + book a service.",
       "path": "haier/dishwasher/e30.html",
-      "source": "Haier official \"Haier Dishwasher Fault Codes\" (support.haier.com.au) + Haier HDW15U3S1 manual + F&P DW24U6I1 guide p.29",
+      "source": "Haier official \"Haier Dishwasher Fault Codes\" (support.haier.com.au) + Haier HDW15U3S1 manual + F&P DW24U6I1 guide p.29; Haier HDW15F4B1 User Manual (p.32)",
       "status": "verified"
     },
     {
@@ -2791,7 +2791,7 @@
       "code": "E2",
       "meaning": "E2 = temperature sensor error or fault; on RB5P410, the refrigerator evaporator sensor. Undefined on RS5P535/LS110EA/HRF266.",
       "path": "hisense/refrigerator/e2.html",
-      "source": "Hisense RM469N4AFEUK user manual (p.45); Hisense RS711N4ACE user manual (p.153); Hisense RB470N4CIC Instructions; Hisense doc 895744-a1 (RB424N4EFC); Hisense RB5P410SACCUK user manual (p.35)",
+      "source": "Hisense RM469N4AFEUK user manual (p.45); Hisense RS711N4ACE user manual (p.153); Hisense RB470N4CIC Instructions; Hisense doc 895744-a1 (RB424N4EFC); Hisense RB5P410SACCUK user manual (p.35); Hisense doc 962974en-a2 (troubleshooting section 28)",
       "status": "verified"
     },
     {
@@ -2979,6 +2979,116 @@
       "meaning": "C8 = main PCB and human sensor communication failure (MDRB600MIC46P/MERB445MIC46, human-sensor BMF models only). Cooling continues.",
       "path": "midea/refrigerator/c8.html",
       "source": "Midea MDRB600MIC46P User Manual (midea.com UK PDF), Fault indication table; Midea MERB445MIC46 User Guide (midea.com IT PDF), Fault indication table",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "PA",
+      "meaning": "PA = AC current protection (input side) - input current exceeded the set value, system shuts down. U-Match/rooftop packaged only; VRF PA is a different fault.",
+      "path": "gree/air-conditioner/pa.html",
+      "source": "Gree U-Match Series DC Inverter Service Manual, R410A (GC201602-I), section 1.2 + section 2.2; Gree DC Inverter U-Match Series Service Manual, R32 (2019), section 3.3 row 33 + section 3.4.31; Gree Mini After-sales Service Manual, U-Match appendix (p.35); Gree ME33-42/G Owner's Manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "PC",
+      "meaning": "PC = current detection (current sense) circuit error - offset-voltage average over 12.5% of 1.65V in 1s after power charging. U-Match/rooftop only; NOT 'Desynchronizing'.",
+      "path": "gree/air-conditioner/pc.html",
+      "source": "Gree U-Match Series DC Inverter Service Manual, R410A (GC201602-I), section 1.2 + section 2.2; Gree DC Inverter U-Match Series Service Manual, R32 (2019), section 3.3 row 34 + section 3.4.32; Gree Mini After-sales Service Manual, U-Match appendix (p.35); Gree ME33-42/G Owner's Manual",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "PL",
+      "meaning": "PL = voltage of DC bus-bar is too low (blink 21); L-N below 150VAC, capacitor-C check, replace AP1. Not 185VAC; PH is too high, U3 is a voltage-drop event.",
+      "path": "gree/air-conditioner/pl.html",
+      "source": "Gree Change 18/24 Service Manual, section 9.3 row 36; Gree Mini After-sale Service Manual, Error Code List; Gree Livo+ Service Manual, section 9.1 p.40; Gree Rooftop Packaged Service Manual, section 5.1 + section 1.2",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "PU",
+      "meaning": "PU = charging malfunction of capacitor (blink 17); 85% capacitor-voltage test, reactor (L) check, 20-min safety step; manuals replace the control board, not the capacitor.",
+      "path": "gree/air-conditioner/pu.html",
+      "source": "Gree Change 18/24 Service Manual, section 9.3 row 32 + section 9.4(2); Gree Mini After-sale Service Manual, Error Code List + section 9; Gree Rooftop Packaged Service Manual, section 5.1",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "refrigerators-freezers",
+      "code": "F2",
+      "meaning": "F2 = compartment fan failure (RB5P410 + doc 962974en-a2); display alone does not identify which fan. Gorenje-platform F2 = condenser fan; HR6CDFF support says room fan motor.",
+      "path": "hisense/refrigerator/f2.html",
+      "source": "Hisense RB5P410SACCUK user manual (p.35); Hisense doc 962974en-a2, INSTRUCTIONS FOR USE OF A REFRIGERATOR WITH FREEZER (troubleshooting section 28)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "refrigerators-freezers",
+      "code": "F0",
+      "meaning": "F0 = condenser fan defective/malfunctioning (RB5P410 + doc 962974en-a2). Not a sensor fault; condenser fan sits at F2 on the Gorenje-platform set.",
+      "path": "hisense/refrigerator/f0.html",
+      "source": "Hisense RB5P410SACCUK user manual (p.35); Hisense doc 962974en-a2, INSTRUCTIONS FOR USE OF A REFRIGERATOR WITH FREEZER (troubleshooting section 28)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "refrigerators-freezers",
+      "code": "En",
+      "meaning": "En = WiFi module defective/malfunctioning (RB5P410 + doc 962974en-a2). No 'cannot operate normally' language; WiFi fault sits at 81 on the Gorenje-platform set.",
+      "path": "hisense/refrigerator/en.html",
+      "source": "Hisense RB5P410SACCUK user manual (p.35); Hisense doc 962974en-a2, INSTRUCTIONS FOR USE OF A REFRIGERATOR WITH FREEZER (troubleshooting section 28)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "refrigerators-freezers",
+      "code": "C1, C2, C3",
+      "meaning": "C1/C2/C3 = door open over 10 minutes (C1 freezer, C2 fridge, C3 both); else door sensor failure (RB5P410 + doc 962974en-a2). Not E9 or dr.",
+      "path": "hisense/refrigerator/c1-c2-c3.html",
+      "source": "Hisense RB5P410SACCUK user manual (pp.33-34); Hisense doc 962974en-a2, INSTRUCTIONS FOR USE OF A REFRIGERATOR WITH FREEZER (troubleshooting section 28)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "dishwashers",
+      "code": "F90",
+      "meaning": "F90 = data/electronics error ('6' variants only: DW24U6I / DW60FC6 / DW60U6I). Power cycle, then Customer Care; no cause or further fix in any manual.",
+      "path": "haier/dishwasher/f90.html",
+      "source": "Fisher & Paykel DW24U6I1 User Guide, p.29; Fisher & Paykel DW60FC models User Guide 591216C, pp.20-21 (official fisherpaykel.com PDF); Fisher & Paykel DW60U2I1 User Manual, p.31",
+      "status": "verified"
+    },
+    {
+      "appliance": "Tumble Dryer",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "tumble-dryers",
+      "code": "E08",
+      "meaning": "E08 = Door NTC: Overheat (BX B7S / BLED heat-pump tumble dryer). One Arcelik/Beko service handbook, two named platforms; service-test Steps 7/8/17; washer E08 is a different fault.",
+      "path": "beko/tumble-dryer/e08.html",
+      "source": "BX B7S / BLED Heat Pump Tumble Dryer Service Handbook (Beko 2013; doc 2977720092_BX_BLED-B7S_HP_Service_Handbook, Sept '17), Error Codes table p.29 + Service Test Program sections 6-7",
       "status": "verified"
     }
   ],
