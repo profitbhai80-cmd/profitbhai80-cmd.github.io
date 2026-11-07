@@ -1460,7 +1460,7 @@
       "code": "EC",
       "meaning": "EC = BLDC wash-pump fault — reveal subcode L0-L6 by 5-second button hold.",
       "path": "midea/dishwasher/ec.html",
-      "source": "Midea Dishwasher Service Manual MDWEF1433DW-SS-WA (midea.com); Midea Dishwasher Service Manual MDWEB1403MB-WA (midea.com); Midea Dishwasher Technical Service Manual (manuals.plus)",
+      "source": "Midea Dishwasher Service Manual MDWEF1433DW-SS-WA (midea.com); Midea Dishwasher Service Manual MDWEB1403MB-WA (midea.com); Midea Dishwasher Technical Service Manual (manuals.plus); De'Longhi DEDW650S User Guide (p.25); Midea standard-version manual 6710028212 (platform split)",
       "status": "verified"
     },
     {
@@ -2340,7 +2340,7 @@
       "code": "F04–F07/F23",
       "meaning": "Electronic module fault — F04/F05/F06/F07/F23 are one fault, one 3-step reset (10+ manuals; \"F04–F98\" catch-all)",
       "path": "hisense/washing-machine/f04-f07-f23.html",
-      "source": "Hisense WFN9012 + WF5S1045BB + WFPV7012MT + WF3S8046BW + WFH 8014 + WFDJ7010 + WFBJ90121 + WFQP8014EVM/HWFL1014V manuals",
+      "source": "Hisense WFN9012 + WF5S1045BB + WFPV7012MT + WF3S8046BW + WFH 8014 + WFDJ7010 + WFBJ90121 + WFQP8014EVM/HWFL1014V/WDQR1014EVAJM manuals",
       "status": "verified"
     },
     {
@@ -2932,9 +2932,9 @@
       "brandSlug": "gree",
       "category": "air-conditioners",
       "code": "H2",
-      "meaning": "H2 = static dedusting / static clearing dust protection (blink 2) - a status display, not a fault. R410A-era only; VRF H2 differs.",
+      "meaning": "H2 = static dedusting / static clearing dust protection (blink 2) - a status display, not a fault. Listed in R410A tables and in the Soyal R32 table (§9.1 row 32); VRF H2 differs.",
       "path": "gree/air-conditioner/h2.html",
-      "source": "Gree Change 18/24 Service Manual, section 9.3 row 22; GREE evo Split AC Owner's Manual, Malfunction Tab; Gree GWH18TC-S3DBA1E Service Manual, Static Dedusting Function section",
+      "source": "Gree Change 18/24 Service Manual, section 9.3 row 22; GREE evo Split AC Owner's Manual, Malfunction Tab; Gree GWH18TC-S3DBA1E Service Manual, Static Dedusting Function section; Gree Soyal GWH09/12/18AKC Service Manual (R32), section 9.1 row 32",
       "status": "verified"
     },
     {
@@ -3089,6 +3089,270 @@
       "meaning": "E08 = Door NTC: Overheat (BX B7S / BLED heat-pump tumble dryer). One Arcelik/Beko service handbook, two named platforms; service-test Steps 7/8/17; washer E08 is a different fault.",
       "path": "beko/tumble-dryer/e08.html",
       "source": "BX B7S / BLED Heat Pump Tumble Dryer Service Handbook (Beko 2013; doc 2977720092_BX_BLED-B7S_HP_Service_Handbook, Sept '17), Error Codes table p.29 + Service Test Program sections 6-7",
+      "status": "verified"
+    },
+    {
+      "appliance": "Washing Machine",
+      "brand": "Hisense",
+      "brandSlug": "hisense",
+      "category": "washing-machines",
+      "code": "F08–F98",
+      "meaning": "Any F-code other than F01, F03, F13, F14 or F24 is an electronic module fault under the manuals' catch-all row.",
+      "path": "hisense/washing-machine/f08-f98.html",
+      "source": "Hisense WFQP8014EVM User Manual, Fault Code List p.16 + section C; Hisense HWFL1014V User Manual; Hisense WDQR1014EVAJM User Manual (doc X08060925, p.12)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "U2",
+      "meaning": "U2 is compressor protection against loss of phase, shown by 12 blinks on evo-era units.",
+      "path": "gree/air-conditioner/u2.html",
+      "source": "GREE evo Split AC Owner's Manual, Malfunction Tab; Gree Mini After-sale Service Manual, blink-count table (split type / floor standing section)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "U3",
+      "meaning": "U3 is PN / DC bus-bar voltage drop protection caused by unstable supply voltage.",
+      "path": "gree/air-conditioner/u3.html",
+      "source": "GREE evo Split AC Owner's Manual, Malfunction Tab; Gree Change 18/24 Service Manual, section 9.3 row 35; Gree Livo Gen4 Service Manual, section 9.1 row 43; Gree Viola 09-12K Service Manual, section 9.1 row 45; Gree Soyal Service Manual, section 9.1 row 44; Gree Mini After-sale Service Manual, blink-count table; GWC18MC Service Manual, section 5",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "U7",
+      "meaning": "U7 means the four-way (reversing) valve is abnormal and failed to change direction in heating.",
+      "path": "gree/air-conditioner/u7.html",
+      "source": "GREE evo Split AC Owner's Manual, Malfunction Tab; Gree Change 18/24 Service Manual, section 9.3 row 38; Gree Livo Gen4 Service Manual, section 9.1 row 45; Gree Viola 09-12K Service Manual, section 9.1 row 47; Gree Soyal Service Manual, section 9.1 row 46; Gree Mini After-sale Service Manual; Gree U-Match R410A Service Manual, section 1.1 row 32; Gree U-Match R32 Service Manual, section 3.3 row 27 + section 3.4.25; Gree Livo+ Service Manual, p.40",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "U9",
+      "meaning": "U9 is a zero-crossing malfunction of the outdoor unit, also worded in the evo manual as an AC power zero voltage detect error.",
+      "path": "gree/air-conditioner/u9.html",
+      "source": "Gree Change 18/24 Service Manual, section 9.3 row 39; Gree Viola 09-12K Service Manual, section 9.1 row 48; Gree Soyal Service Manual, section 9.1 row 47; Gree Mini After-sale Service Manual; GREE evo Split AC Owner's Manual, Malfunction Tab",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "H0",
+      "meaning": "Heating anti-high temperature drop frequency (blink 10) - all loads keep operating while the compressor frequency is decreased in heating.",
+      "path": "gree/air-conditioner/h0.html",
+      "source": "Gree Change 18/24 Service Manual, section 9.3 row 28 + section 9.4(4); GREE evo Split AC Owner's Manual, Malfunction Tab; Gree Soyal Service Manual, section 9.1 row 31",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "H7",
+      "meaning": "Desynchronizing of compressor / compressor loss of step (blink 7) - compressor stops in cooling/drying while the indoor fan runs, and the whole unit stops in heating.",
+      "path": "gree/air-conditioner/h7.html",
+      "source": "Gree Change 18/24 Service Manual, section 9.3 row 27 + sections 9.4(3) and 9.4(6); GREE evo Split AC Owner's Manual, Malfunction Tab; Gree Livo Gen4 Service Manual, section 9.1 row 35; Gree Soyal Service Manual, section 9.1 row 37; Gree Mini After-sale Service Manual, Error Code List",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "E0",
+      "meaning": "Pump failure (U-Match duct/cassette only) - after full-water protection has not recovered for a continuous 2 hours, all loads shut off and the fault cannot recover automatically.",
+      "path": "gree/air-conditioner/e0.html",
+      "source": "Gree U-Match Service Manual, GUHN09NK3AO, section 1 Trouble Table + Water Pump origin row; Gree U-Match Service Manual, GUHN09NK1AO, section 1 Trouble Table + Water Pump origin row",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "LD",
+      "meaning": "LD means compressor loss of phase protection, with blink 12 in the Mini After-sale manual.",
+      "path": "gree/air-conditioner/ld.html",
+      "source": "GREE evo Split AC Owner's Manual, Malfunction Tab; Gree Mini After-sale Service Manual, Error Code List; Gree XK19 Wired Controller Manual, Table 4",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "LE",
+      "meaning": "LE means compressor locked rotor protection, also called compressor stalling.",
+      "path": "gree/air-conditioner/le.html",
+      "source": "GREE evo Split AC Owner's Manual, Malfunction Tab; Gree XK19 Wired Controller Manual, Table 4",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Gree",
+      "brandSlug": "gree",
+      "category": "air-conditioners",
+      "code": "LA",
+      "meaning": "LA means outdoor fan 2 error protection, on dual-outdoor-fan units only, with L3 as fan 1.",
+      "path": "gree/air-conditioner/la.html",
+      "source": "Gree Mini After-sale Service Manual, Error Code List (L3 row note); Gree XK19 Wired Controller Manual, Table 4",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "E6",
+      "meaning": "E6 means an open or short circuit of the room or evaporator temperature sensor (T2).",
+      "path": "midea/air-conditioner/e6.html",
+      "source": "Midea Air Conditioner Error Codes Guide, R / 9V / 9A tables (manuals.plus); Midea Air Conditioner Error Codes and Troubleshooting Guide, Neola / Mission / Aurora / Altimate Comfort tables (manuals.plus); Midea Inverter Air Condition, Pridiom Multi-Zone service manual (PWM093HX / POM273HX); Midea Split Wall-Mounted Type Service Manual CSNA-1304-A, Corona Series, section 9.1",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "E7",
+      "meaning": "E7 means outdoor fan speed out of control on 9V/9A and High Wall DB units, a T3 or T4 sensor fault on Mission, Aurora, Altimate and MSX midwall units, or an indoor EEPROM malfunction on cassette, ducted and floorstanding units.",
+      "path": "midea/air-conditioner/e7.html",
+      "source": "Midea Air Conditioner Error Codes Guide (manuals.plus); Midea Air Conditioner Error Codes and Troubleshooting Guide (manuals.plus); Midea High Wall System Error Codes and Fault Diagnosis Guide (manuals.plus)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "F4",
+      "meaning": "F4 means the outdoor unit EEPROM parameter error, the outdoor-PCB twin of E0.",
+      "path": "midea/air-conditioner/f4.html",
+      "source": "Midea High Wall System Error Codes and Fault Diagnosis Guide (manuals.plus); Midea Air Conditioner Error Codes and Troubleshooting Guide (manuals.plus); Midea Air Conditioner Error Codes Guide, MSMBB-12CRDN1-MP0W table (manuals.plus)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Air Conditioner",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "category": "air-conditioners",
+      "code": "F5",
+      "meaning": "F5 means the outdoor fan speed has gone out of control, for DC fan motors only.",
+      "path": "midea/air-conditioner/f5.html",
+      "source": "Midea High Wall System Error Codes and Fault Diagnosis Guide (manuals.plus); Midea Air Conditioner Error Codes and Troubleshooting Guide (manuals.plus); Midea Air Conditioner Error Codes Guide, MSMBB-12CRDN1-MP0W table (manuals.plus)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "refrigerators-freezers",
+      "code": "E0",
+      "meaning": "E0 means the freezer air sensor has failed (open or short circuit).",
+      "path": "beko/refrigerator/e0.html",
+      "source": "Arcelik BEKO COSMOS Service Handbook (SBS Cosmos refrigerator, G91631NE-G91634NE, REV NO: 01, 07.11.2018), section 13.1 (p.102); Arcelik BEKO G91629NWU Service Manual (FOUREVER 3-door, 36-inch wardrobe type refrigerator, REV NO: 01), section 9.1 (p.35)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "refrigerators-freezers",
+      "code": "E1",
+      "meaning": "E1 means the freezer evaporator sensor has failed.",
+      "path": "beko/refrigerator/e1.html",
+      "source": "Arcelik BEKO COSMOS Service Handbook (SBS Cosmos refrigerator, G91631NE-G91634NE, REV NO: 01, 07.11.2018), section 13.2 (p.103); Arcelik BEKO G91629NWU Service Manual (FOUREVER 3-door, 36-inch wardrobe type refrigerator, REV NO: 01), section 9.2 (p.36)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "refrigerators-freezers",
+      "code": "E2",
+      "meaning": "E2 means the fridge (fresh-food) evaporator sensor has failed.",
+      "path": "beko/refrigerator/e2.html",
+      "source": "Arcelik BEKO COSMOS Service Handbook (SBS Cosmos refrigerator, G91631NE-G91634NE, REV NO: 01, 07.11.2018), section 13.3 (p.104); Arcelik BEKO G91629NWU Service Manual (FOUREVER 3-door, 36-inch wardrobe type refrigerator, REV NO: 01), section 9.3 (p.37)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "refrigerators-freezers",
+      "code": "E3",
+      "meaning": "E3 means the fridge (fresh-food) air sensor has failed.",
+      "path": "beko/refrigerator/e3.html",
+      "source": "Arcelik BEKO COSMOS Service Handbook (SBS Cosmos refrigerator, G91631NE-G91634NE, REV NO: 01, 07.11.2018), section 13.4 (p.105); Arcelik BEKO G91629NWU Service Manual (FOUREVER 3-door, 36-inch wardrobe type refrigerator, REV NO: 01), section 9.4 (p.38)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "refrigerators-freezers",
+      "code": "E4",
+      "meaning": "E4 means the freezer defrost heater has failed.",
+      "path": "beko/refrigerator/e4.html",
+      "source": "Arcelik BEKO COSMOS Service Handbook (SBS Cosmos refrigerator, G91631NE-G91634NE, REV NO: 01, 07.11.2018), section 13.5 (p.106); Arcelik BEKO G91629NWU Service Manual (FOUREVER 3-door, 36-inch wardrobe type refrigerator, REV NO: 01), section 9.5 (p.39)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "refrigerators-freezers",
+      "code": "E8",
+      "meaning": "E8 means the ice-maker (icematic) air sensor has failed.",
+      "path": "beko/refrigerator/e8.html",
+      "source": "Arcelik BEKO COSMOS Service Handbook (SBS Cosmos refrigerator, G91631NE-G91634NE, REV NO: 01, 07.11.2018), section 13.6 (p.107); Arcelik BEKO G91629NWU Service Manual (FOUREVER 3-door, 36-inch wardrobe type refrigerator, REV NO: 01), section 9.6 (p.40)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "refrigerators-freezers",
+      "code": "E9",
+      "meaning": "E9 means the ice-maker (icematic) motor has failed.",
+      "path": "beko/refrigerator/e9.html",
+      "source": "Arcelik BEKO COSMOS Service Handbook (SBS Cosmos refrigerator, G91631NE-G91634NE, REV NO: 01, 07.11.2018), section 13.7 (p.108); Arcelik BEKO G91629NWU Service Manual (FOUREVER 3-door, 36-inch wardrobe type refrigerator, REV NO: 01), section 9.7 (p.41)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "refrigerators-freezers",
+      "code": "E13",
+      "meaning": "E13 means the freezer fan has failed or is running at the wrong speed (cyclic freezer fan error).",
+      "path": "beko/refrigerator/e13.html",
+      "source": "Arcelik BEKO COSMOS Service Handbook (SBS Cosmos refrigerator, G91631NE-G91634NE, REV NO: 01, 07.11.2018), section 13.8 (p.109); Arcelik BEKO G91629NWU Service Manual (FOUREVER 3-door, 36-inch wardrobe type refrigerator, REV NO: 01), section 9.8 (p.42)",
+      "status": "verified"
+    },
+    {
+      "appliance": "Refrigerator",
+      "brand": "Beko",
+      "brandSlug": "beko",
+      "category": "refrigerators-freezers",
+      "code": "E15",
+      "meaning": "E15 means the condenser fan has failed or is running at the wrong speed (cyclic condenser fan error).",
+      "path": "beko/refrigerator/e15.html",
+      "source": "Arcelik BEKO COSMOS Service Handbook (SBS Cosmos refrigerator, G91631NE-G91634NE, REV NO: 01, 07.11.2018), section 13.9 (p.110); Arcelik BEKO G91629NWU Service Manual (FOUREVER 3-door, 36-inch wardrobe type refrigerator, REV NO: 01), section 9.9 (p.43)",
       "status": "verified"
     }
   ],
