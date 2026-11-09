@@ -2762,6 +2762,17 @@
    "status": "verified"
   },
   {
+   "appliance": "Dishwasher",
+   "brand": "Daewoo",
+   "brandSlug": "daewoo",
+   "category": "dishwashers",
+   "code": "E8",
+   "meaning": "E8 = diverter valve fault - no feed signal in 15 s or not positioned accurately in 60 s; diverter-equipped models only (wrong-appliance washer E8 debunked).",
+   "path": "daewoo/dishwasher/e8.html",
+   "source": "Daewoo DDW-MQ1214S TSM pp.28-30 + Daewoo DDW-M1215 Instruction Manual p.19",
+   "status": "verified"
+  },
+  {
    "appliance": "Refrigerator",
    "brand": "Hisense",
    "brandSlug": "hisense",
@@ -3358,5 +3369,5 @@
  ],
  "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
  "site": "Appliance Error Codes & Troubleshooting",
- "updated": "2026-10-23"
+ "updated": "2026-11-09"
 }
