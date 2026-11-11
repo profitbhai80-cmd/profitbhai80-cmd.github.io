@@ -3511,6 +3511,127 @@
   },
   {
    "appliance": "Air Conditioner",
+   "brand": "Gree",
+   "brandSlug": "gree",
+   "category": "air-conditioners",
+   "code": "Lc",
+   "meaning": "Lc = compressor failure start-up (flash 11): the compressor failed to start. In cooling the compressor stops while the indoor fan runs; in heating the complete unit stops. U-Match causes: UVW wire, compressor, drive board.",
+   "path": "gree/air-conditioner/lc.html",
+   "source": "GREE Mini After-sale Service Manual (flash 11); Gree Soyal Service Manual §9.1 row 42; Gree Livo Gen4 Service Manual §9.1 row 39; GREE Change 18/24 Service Manual §9.3; GREE evo Split AC Owner's Manual, Malfunction Tab; Gree U-Match R32 Service Manual §3.3 row 23 + §3.4.23; Gree U-Match R410A Service Manual §1.2; Gree GWH09UB-K6DNA4A / GWH12UB-K3DNA4F Service Manuals §9.1",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Gree",
+   "brandSlug": "gree",
+   "category": "air-conditioners",
+   "code": "L9",
+   "meaning": "L9 = power protection (high-power protection): the unit trips to protect its electronic components. Compressor stops, outdoor fan stops 30s later; both restart 3 minutes later. No blink count verified.",
+   "path": "gree/air-conditioner/l9.html",
+   "source": "Gree Soyal Service Manual §9.1 row 40; Gree Livo Gen4 Service Manual §9.1; Gree Livo+ Service Manual §9.1 p.40; Gree GWH09UB-K6DNA4A / GWH12UB-K3DNA4F Service Manuals §9.1",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Gree",
+   "brandSlug": "gree",
+   "category": "air-conditioners",
+   "code": "LP",
+   "meaning": "LP = indoor and outdoor units don't match (model or capacity). An installation/matching fault — no reset fixes it; the manuals' only remedy is a matched pair.",
+   "path": "gree/air-conditioner/lp.html",
+   "source": "Gree Soyal Service Manual §9.1 row 41; Gree U-Match R32 Service Manual §3.3 row 26 + §3.4.24; Gree NEO09AC115V1A Neo Ductless Instruction Manual, diagnostic codes; GREE Mini After-sale Service Manual + U-Match appendix; Gree Livo Gen4 Service Manual §9.1; Gree Livo+ Service Manual §9.1 p.40; Gree GWH09UB-K6DNA4A / GWH12UB-K3DNA4F Service Manuals §9.1",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Gree",
+   "brandSlug": "gree",
+   "category": "air-conditioners",
+   "code": "HC",
+   "meaning": "HC = PFC (Power Factor Correction) protection (flash 6). Mini manual's 4 causes; Soyal fix: replace outdoor control panel AP1 or the reactor. Not limited to big units.",
+   "path": "gree/air-conditioner/hc.html",
+   "source": "GREE Mini After-sale Service Manual (flash 6, 4 causes); Gree Soyal Service Manual §9.1 row 38; Gree U-Match R32 Service Manual §3.3 row 22 + §3.4.22; Gree Livo Gen4 Service Manual §9.1; Gree Livo+ Service Manual §9.1 p.40; GREE Change 18/24 Service Manual §9.3; GREE evo Split AC Owner's Manual, Malfunction Tab; Gree GWH09UB-K6DNA4A / GWH12UB-K3DNA4F Service Manuals §9.1",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Gree",
+   "brandSlug": "gree",
+   "category": "air-conditioners",
+   "code": "HE",
+   "meaning": "HE = compressor demagnetization protection (flash 14). Causes: outdoor main board damaged first, compressor damaged second. Not in Soyal, Livo or U-Match tables.",
+   "path": "gree/air-conditioner/he.html",
+   "source": "GREE Mini After-sale Service Manual (flash 14, 2 causes); GREE evo Split AC Owner's Manual, Malfunction Tab; Gree GWH09UB-K6DNA4A / GWH12UB-K3DNA4F Service Manuals §9.1; Gree XK19 wired-controller generic error table (corroboration)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Gree",
+   "brandSlug": "gree",
+   "category": "air-conditioners",
+   "code": "EU",
+   "meaning": "EU = limit/decrease frequency due to high temperature of the module: the compressor keeps running at decreased frequency. 20-minute de-energize, thermal-grease check, then AP1. Not H5 or P8.",
+   "path": "gree/air-conditioner/eu.html",
+   "source": "Gree Soyal Service Manual §9.1 row 9; Gree Livo Gen4 Service Manual §9.1; GREE Change 18/24 Service Manual §9.3; GREE evo Split AC Owner's Manual, Malfunction Tab; Gree GWH09UB-K6DNA4A / GWH12UB-K3DNA4F Service Manuals §9.1",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Gree",
+   "brandSlug": "gree",
+   "category": "air-conditioners",
+   "code": "PF",
+   "meaning": "PF (U-Match only) = electric box sensor error: AD value out of range for 5 seconds continuously. Three causes in §3.4.16; no blink count.",
+   "path": "gree/air-conditioner/pf.html",
+   "source": "Gree U-Match R32 Service Manual §3.3 row 16 + §3.4.16; GREE Mini After-sale Service Manual, U-Match appendix; Gree UMA30HP230V1ACS Installation Manual Table 6.1 row 17",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Gree",
+   "brandSlug": "gree",
+   "category": "air-conditioners",
+   "code": "PP",
+   "meaning": "PP (U-Match only) = input voltage error: AC supply outside its normal range. R410A flowchart checks 185-264VAC. VRF PP is a different (current) fault.",
+   "path": "gree/air-conditioner/pp.html",
+   "source": "Gree U-Match R32 Service Manual §3.3 row 39; Gree U-Match R410A Service Manual §1.2 + §2.2 flowchart; Gree XK19 wired-controller generic error table (corroboration)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Gree",
+   "brandSlug": "gree",
+   "category": "air-conditioners",
+   "code": "Pd",
+   "meaning": "Pd (U-Match only) = sensor connection protection: discharge sensor AD value out of range for 5 seconds. Manual's flow: needle-stand contact, resistance, sensor, then main board.",
+   "path": "gree/air-conditioner/pd.html",
+   "source": "Gree U-Match R32 Service Manual §3.3 row 35 + §3.4.33; Gree XK19 wired-controller generic error table (corroboration); Gree U-Match 5 Series Service Manual §3.4.33 (corroboration)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Gree",
+   "brandSlug": "gree",
+   "category": "air-conditioners",
+   "code": "JF",
+   "meaning": "JF = malfunction of the detecting plate (WIFI): app control is lost while the unit still cools and dries normally. Three causes in Soyal row 50.",
+   "path": "gree/air-conditioner/jf.html",
+   "source": "Gree Soyal Service Manual §9.1 row 50; Gree Livo Gen4 Service Manual §9.1",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Gree",
+   "brandSlug": "gree",
+   "category": "air-conditioners",
+   "code": "F0",
+   "meaning": "F0 = refrigerant leakage protection on wall-split/mini-split/window units; indoor ambient temperature sensor error on U-Match. F0 (zero) is not Fo (letter o).",
+   "path": "gree/air-conditioner/f0.html",
+   "source": "Gree Soyal Service Manual §9.1 row 3; Gree Livo Gen4 Service Manual §9.1; Gree Fairy / Livo+ Service Manuals §9.1; Gree GWH09UB-K6DNA4A / GWH12UB-K3DNA4F Service Manuals §9.1; Gree window GJC08BU manual; Gree Vireo manual; Gree U-Match R32 Service Manual §3.3 row 8 + §3.4.8; Gree U-Match R410A Service Manual §1.1; GREE Mini After-sale Service Manual, U-Match appendix",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
    "brand": "Midea",
    "brandSlug": "midea",
    "category": "air-conditioners",
@@ -3655,5 +3776,5 @@
  ],
  "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
  "site": "Appliance Error Codes & Troubleshooting",
- "updated": "2026-11-10"
+ "updated": "2026-11-11"
 }
