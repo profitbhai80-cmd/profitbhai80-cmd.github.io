@@ -3772,9 +3772,64 @@
    "path": "beko/refrigerator/e15.html",
    "source": "Arcelik BEKO COSMOS Service Handbook (SBS Cosmos refrigerator, G91631NE-G91634NE, REV NO: 01, 07.11.2018), section 13.9 (p.110); Arcelik BEKO G91629NWU Service Manual (FOUREVER 3-door, 36-inch wardrobe type refrigerator, REV NO: 01), section 9.9 (p.43)",
    "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Sharp",
+   "brandSlug": "sharp",
+   "category": "washing-machines",
+   "code": "E1",
+   "meaning": "E1 = the washer has not reached the set water level — a water-inlet fault (top-load only). The manuals' causes: closed faucet, low flow, or a blocked inlet filter net. The 15-minute check is Sharp's own wording.",
+   "path": "sharp/washing-machine/e1.html",
+   "source": "Sharp ES-HK800G Operation Manual §1; Sharp ES-F120G / ES-F100G Operation Manual, Abnormal display table; Sharp ES-W95TWXT / ES-W85TWXT Operation Manual, Common non-fault phenomenon; Sharp ES-G80G Operation Manual, Abnormal display table",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Sharp",
+   "brandSlug": "sharp",
+   "category": "washing-machines",
+   "code": "E01",
+   "meaning": "E01 = the door of the machine is not shut properly (front-load only). Shut the door until it clicks; if E01 persists, turn off, unplug, and contact an authorised service agent. Not the same as top-load E1.",
+   "path": "sharp/washing-machine/e01.html",
+   "source": "Sharp ES-NFA814BW1NA-DE User Manual §10; Sharp ES-NFB914AWC User Manual §10; Sharp ES-HFB8143WD-DE User Manual §10",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Sharp",
+   "brandSlug": "sharp",
+   "category": "washing-machines",
+   "code": "E02",
+   "meaning": "E02 = the water pressure or the water level inside the machine may be low (front-load only). Check the tap is fully turned on; if it continues, the machine stops by itself — then unplug, turn off the tap, and call a service agent.",
+   "path": "sharp/washing-machine/e02.html",
+   "source": "Sharp ES-NFA814BW1NA-DE User Manual §10; Sharp ES-NFB914AWC User Manual §10; Sharp ES-HFB8143WD-DE User Manual §10",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Sharp",
+   "brandSlug": "sharp",
+   "category": "washing-machines",
+   "code": "E03",
+   "meaning": "E03 = the pump is faulty, or the pump filter is clogged, or the pump's electrical connection is faulty (front-load only). Clean the pump filter; if E03 persists, contact an authorised service agent.",
+   "path": "sharp/washing-machine/e03.html",
+   "source": "Sharp ES-NFA814BW1NA-DE User Manual §10; Sharp ES-NFB914AWC User Manual §10; Sharp ES-HFB8143WD-DE User Manual §10",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Sharp",
+   "brandSlug": "sharp",
+   "category": "washing-machines",
+   "code": "E04",
+   "meaning": "E04 = the machine has an excessive amount of water (front-load only). The machine discharges the water by itself; once drained, turn off, unplug, turn off the tap, and call an authorised service agent.",
+   "path": "sharp/washing-machine/e04.html",
+   "source": "Sharp ES-NFA814BW1NA-DE User Manual §10; Sharp ES-NFB914AWC User Manual §10; Sharp ES-HFB8143WD-DE User Manual §10",
+   "status": "verified"
   }
  ],
  "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
  "site": "Appliance Error Codes & Troubleshooting",
- "updated": "2026-11-11"
+ "updated": "2026-11-12"
 }
