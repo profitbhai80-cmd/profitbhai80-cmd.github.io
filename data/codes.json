@@ -3827,9 +3827,64 @@
    "path": "sharp/washing-machine/e04.html",
    "source": "Sharp ES-NFA814BW1NA-DE User Manual §10; Sharp ES-NFB914AWC User Manual §10; Sharp ES-HFB8143WD-DE User Manual §10",
    "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Sharp",
+   "brandSlug": "sharp",
+   "category": "washing-machines",
+   "code": "E2",
+   "meaning": "E2 = the top lid is open when spinning (top-load only). Close the top lid and clear up the alarm. On the W/M family it also fires if the lid is opened when the reservation course starts. Not the same as front-load E02.",
+   "path": "sharp/washing-machine/e2.html",
+   "source": "Sharp ES-HK800G Operation Manual §1; Sharp ES-F120G / ES-F100G Operation Manual §1; Sharp ES-G80G Operation Manual §1; Sharp ES-W95TWXT / ES-W85TWXT Operation Manual, Abnormal display (printed p.17); Sharp ES-M1108T Operation Manual, Abnormal display (printed p.6)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Sharp",
+   "brandSlug": "sharp",
+   "category": "washing-machines",
+   "code": "E3",
+   "meaning": "E3 splits by family: spin imbalance on ES-HK800G / ES-F120G / ES-G80G, drain-hose fault on ES-W95TWXT / ES-M1108T. Check the model number first — there is no single E3 meaning. Not the same as front-load E03.",
+   "path": "sharp/washing-machine/e3.html",
+   "source": "Sharp ES-HK800G Operation Manual §1; Sharp ES-F120G / ES-F100G Operation Manual §1; Sharp ES-G80G Operation Manual §1; Sharp ES-W95TWXT / ES-W85TWXT Operation Manual, Abnormal display (printed p.17); Sharp ES-M1108T Operation Manual, Abnormal display (printed p.6)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Sharp",
+   "brandSlug": "sharp",
+   "category": "washing-machines",
+   "code": "E4",
+   "meaning": "E4 splits by family — opposite faults: 20-minute filling timeout on ES-HK800G / ES-F120G / ES-G80G, load imbalance on ES-W95TWXT / ES-M1108T. Check the model number first. Not the same as front-load E04.",
+   "path": "sharp/washing-machine/e4.html",
+   "source": "Sharp ES-HK800G Operation Manual §1; Sharp ES-F120G / ES-F100G Operation Manual §1; Sharp ES-G80G Operation Manual §1; Sharp ES-W95TWXT / ES-W85TWXT Operation Manual, Abnormal display (printed p.17); Sharp ES-M1108T Operation Manual, Abnormal display (printed p.6)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Sharp",
+   "brandSlug": "sharp",
+   "category": "washing-machines",
+   "code": "F1",
+   "meaning": "F1 = the water level sensor is wrong (top-load only). Turn the power off for 1 minute, then on again; if F1 persists, cut the power and call a technician. The W/M family reports the same sensor fault as C2.",
+   "path": "sharp/washing-machine/f1.html",
+   "source": "Sharp ES-HK800G Operation Manual §1; Sharp ES-F120G / ES-F100G Operation Manual §1; Sharp ES-G80G Operation Manual §1",
+   "status": "verified"
+  },
+  {
+   "appliance": "Oven",
+   "brand": "Beko",
+   "brandSlug": "beko",
+   "category": "ovens-ranges",
+   "code": "Er 1–Er 99",
+   "meaning": "Er 1–Er 99 = Beko built-in oven error groups (13 groups: communication, sensor, meat probe, heating, component, lid, steam, hardware, security, Homewhiz, microwave, card/timer). The manual's fix is an authorized service — except Er 5, which has an owner workaround. F1/F5 do not exist in Beko oven manuals.",
+   "path": "beko/oven/er-error-codes.html",
+   "source": "Beko BBIM13301XPE Built-in Oven User Manual, Troubleshooting (p. EN/38–39); Beko BBIE12300XMP Built-in Oven User Manual, Troubleshooting (doc 385443029_1, 05.03.24); Beko BBIM14300BMP User Manual, Troubleshooting (EN p.40)",
+   "status": "verified"
   }
  ],
  "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
  "site": "Appliance Error Codes & Troubleshooting",
- "updated": "2026-11-12"
+ "updated": "2026-11-13"
 }
