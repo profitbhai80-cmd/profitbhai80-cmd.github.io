@@ -1062,7 +1062,7 @@
       "brandSlug": "haier",
       "category": "dishwashers",
       "code": "E2",
-      "meaning": "E2 = the dishwasher does not fill with water (XS family only; short audio signal, or 2 LED flashes with a 5-second pause on display-less models). Series split: on DW9/DW12/HDW12 families E2 is paired with E6 as 'contact the nearest authorized service center' with no fault meaning, so DW/HDW owners must not follow the XS fill diagnosis as their E2 meaning.",
+      "meaning": "E2 = the dishwasher does not fill with water (XS family only; short audio signal, or 2 LED flashes with a 5-second pause on display-less models). Series split: on DW9, DW12-TFE1/TFE2 and HDW12 families E2 is paired with E6 as 'contact the nearest authorized service center' with no fault meaning; on DW12-PFE8/TFE3 service-manual families E2 = sensor (NTC) trouble and E6 = water overflow trouble, so DW/HDW owners must not follow the XS fill diagnosis as their E2 meaning.",
       "path": "haier/dishwasher/e2.html",
       "source": "Haier XS 6B0M3PDB User Manual §19 (manua.ls, p.45); Haier XS 6B0S3FSB User Manual §19 (manua.ls); Haier DW9-UFE3 User's Manual (manualzilla, E2/E6 service line); Haier DW12-TFE1/DW12-TFE2 User Manual (manualsdump, E2/E6 service line)",
       "status": "verified"
@@ -3991,6 +3991,17 @@
       "meaning": "U4 = the door is not closed (front-load FH family only). Close the door until the 'locked' light is on, confirm it, then press START/PAUSE. Not the same as E01 or H.",
       "path": "sharp/washing-machine/u4.html",
       "source": "Sharp ES-FH10AT-W Manual, Troubleshooting Guide; Sharp ES-FH105BV-B Operation Manual, Troubleshooting Guide",
+      "status": "verified"
+    },
+    {
+      "appliance": "Dishwasher",
+      "brand": "Haier",
+      "brandSlug": "haier",
+      "category": "dishwashers",
+      "code": "E6",
+      "meaning": "E6 = water overflow trouble (overflow alarm) on the electronic DW12 families (DW12-PFE8, DW12-TFE3): the float/overflow switch has tripped and the drain pump keeps running (buzzer: 10 short signals every 30 seconds). Not the door (E1), the leak (E3) or the water supply (E5). The mechanical DW9-AFM and the XS family have no E6.",
+      "path": "haier/dishwasher/e6.html",
+      "source": "Haier DW12-PFE8 Series Service Manual (Qingdao Haier Dishwasher Co., Ltd, 2010, doc no. DW1004S001V0), §15-3 (p.42) + §15-4-6 (p.50); Haier DW12-TFE3 Service Manual — Domestic (37 pp, Edition 2008-05, Models DW12-TFE3/DW12-TFE3ME, Bom FA06D0E03/FA06D0E04), §15.2 (p.27) + §16.5 (p.32); Haier DW12-TFE3 Series Service Manual (53 pp, Qingdao Haier, 2010), §15.2 (p.42) + §16-5 (p.47)",
       "status": "verified"
     }
   ],
