@@ -3836,7 +3836,7 @@
       "code": "E2",
       "meaning": "E2 = the top lid is open when spinning (top-load only). Close the top lid and clear up the alarm. On the W/M family it also fires if the lid is opened when the reservation course starts. Not the same as front-load E02. On the X series (ES-X155 / ES-X751 / ES-X851), E2 means abnormal water level instead.",
       "path": "sharp/washing-machine/e2.html",
-      "source": "Sharp ES-HK800G Operation Manual §1; Sharp ES-F120G / ES-F100G Operation Manual §1; Sharp ES-G80G Operation Manual §1; Sharp ES-W95TWXT / ES-W85TWXT Operation Manual, Abnormal display (printed p.17); Sharp ES-M1108T Operation Manual, Abnormal display (printed p.6)",
+      "source": "Sharp ES-HK800G Operation Manual §1; Sharp ES-F120G / ES-F100G Operation Manual §1; Sharp ES-G80G Operation Manual §1; Sharp ES-W95TWXT / ES-W85TWXT Operation Manual, Abnormal display (printed p.17); Sharp ES-M1108T Operation Manual, Abnormal display (printed p.6); Sharp ES-X155 Operation Manual, Troubleshooting; Sharp ES-X751 / ES-X851 Operation Manual, Error Codes",
       "status": "verified"
     },
     {
@@ -3847,7 +3847,7 @@
       "code": "E3",
       "meaning": "E3 splits by family: spin imbalance on ES-HK800G / ES-F120G / ES-G80G, drain-hose fault on ES-W95TWXT / ES-M1108T. Check the model number first — there is no single E3 meaning. Not the same as front-load E03. On the X series (ES-X155 / ES-X751 / ES-X851), E3 is a lid code instead.",
       "path": "sharp/washing-machine/e3.html",
-      "source": "Sharp ES-HK800G Operation Manual §1; Sharp ES-F120G / ES-F100G Operation Manual §1; Sharp ES-G80G Operation Manual §1; Sharp ES-W95TWXT / ES-W85TWXT Operation Manual, Abnormal display (printed p.17); Sharp ES-M1108T Operation Manual, Abnormal display (printed p.6)",
+      "source": "Sharp ES-HK800G Operation Manual §1; Sharp ES-F120G / ES-F100G Operation Manual §1; Sharp ES-G80G Operation Manual §1; Sharp ES-W95TWXT / ES-W85TWXT Operation Manual, Abnormal display (printed p.17); Sharp ES-M1108T Operation Manual, Abnormal display (printed p.6); Sharp ES-X155 Operation Manual, Troubleshooting; Sharp ES-X751 / ES-X851 Operation Manual, Error Codes",
       "status": "verified"
     },
     {
@@ -3858,7 +3858,7 @@
       "code": "E4",
       "meaning": "E4 splits by family — opposite faults: 20-minute filling timeout on ES-HK800G / ES-F120G / ES-G80G, load imbalance on ES-W95TWXT / ES-M1108T. Check the model number first. Not the same as front-load E04. On the X series (ES-X155 / ES-X751 / ES-X851), E4 also means load imbalance.",
       "path": "sharp/washing-machine/e4.html",
-      "source": "Sharp ES-HK800G Operation Manual §1; Sharp ES-F120G / ES-F100G Operation Manual §1; Sharp ES-G80G Operation Manual §1; Sharp ES-W95TWXT / ES-W85TWXT Operation Manual, Abnormal display (printed p.17); Sharp ES-M1108T Operation Manual, Abnormal display (printed p.6)",
+      "source": "Sharp ES-HK800G Operation Manual §1; Sharp ES-F120G / ES-F100G Operation Manual §1; Sharp ES-G80G Operation Manual §1; Sharp ES-W95TWXT / ES-W85TWXT Operation Manual, Abnormal display (printed p.17); Sharp ES-M1108T Operation Manual, Abnormal display (printed p.6); Sharp ES-X155 Operation Manual, Troubleshooting; Sharp ES-X751 / ES-X851 Operation Manual, Error Codes",
       "status": "verified"
     },
     {
@@ -4003,9 +4003,119 @@
       "path": "haier/dishwasher/e6.html",
       "source": "Haier DW12-PFE8 Series Service Manual (Qingdao Haier Dishwasher Co., Ltd, 2010, doc no. DW1004S001V0), §15-3 (p.42) + §15-4-6 (p.50); Haier DW12-TFE3 Service Manual — Domestic (37 pp, Edition 2008-05, Models DW12-TFE3/DW12-TFE3ME, Bom FA06D0E03/FA06D0E04), §15.2 (p.27) + §16.5 (p.32); Haier DW12-TFE3 Series Service Manual (53 pp, Qingdao Haier, 2010), §15.2 (p.42) + §16-5 (p.47)",
       "status": "verified"
-    }
+    },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "E7",
+   "meaning": "E7 = communication fault between the indoor and outdoor units on Haier split-wall/ductless models (outdoor LED1 flashes 15 times; no communication for more than 4 consecutive minutes). Wiring fastening, LN reversal and the LED1/LED2 table are technician checks — not the remote control and not a fan fault.",
+   "path": "haier/air-conditioner/e7.html",
+   "source": "Haier Split Type Room Air Conditioner Operation Manual (models AS25/35/50/68/71...HRA — Pearl / Pearl Premium / Pearl Nordic / Revive Plus / Expert Nordic, R32), Troubleshooting Codes table; Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) + p.49 flowchart + Introduction p.5; Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A pp.28-29",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "E1",
+   "meaning": "E1 = room (indoor ambient) temperature sensor failure on Haier split-wall/ductless models (faulty sensor or short-circuit for more than 2 consecutive minutes). On portable models E1 is the coil sensor — the two sensors are swapped.",
+   "path": "haier/air-conditioner/e1.html",
+   "source": "Haier Split Type Room Air Conditioner Operation Manual (models AS25/35/50/68/71...HRA — Pearl / Pearl Premium / Pearl Nordic / Revive Plus / Expert Nordic, R32), Troubleshooting Codes table; Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A pp.28-29; Haier HSU09XHK / HSU12XHK Service Manual (Order No. AC1205S001V0), §7.2 pp.32-33",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "E14",
+   "meaning": "E14 = indoor fan motor failure on Haier split-wall/ductless models (fan motor wire break or defective indoor PCB). The outdoor fan fault is a different code, F8 — and E14 is not the remote-control or communication fault some lists print.",
+   "path": "haier/air-conditioner/e14.html",
+   "source": "Haier Split Type Room Air Conditioner Operation Manual (models AS25/35/50/68/71...HRA — Pearl / Pearl Premium / Pearl Nordic / Revive Plus / Expert Nordic, R32), Troubleshooting Codes table; Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) + p.44 flowchart; Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A pp.28-29; Haier HSU09XHK / HSU12XHK Service Manual (Order No. AC1205S001V0), §7.2 pp.32-34",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F1",
+   "meaning": "F1 = power module / IPM protection on Haier split-wall/ductless models (outdoor LED1 flashes 2 times); the alarm locks the machine after 3 trips in an hour. No owner fix in any manual — power-module replacement is technician work.",
+   "path": "haier/air-conditioner/f1.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) + p.46 flowchart; Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A p.28; Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F2",
+   "meaning": "F2 = failed to start compressor / compressor overcurrent on Haier split-wall/ductless models (outdoor LED1 flashes 24 times; F22 is 3 flashes, F23 is 25). The alarm locks the machine after 3 trips in an hour.",
+   "path": "haier/air-conditioner/f2.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) + p.46 flowchart; Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A p.31; Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F3",
+   "meaning": "F3 = communication fault between the IPM power module and the outdoor PCB on Haier split-wall/ductless models (outdoor LED1 flashes 4 times, after more than 4 minutes without communication). Not the same as E7 — F3 is inside the outdoor unit.",
+   "path": "haier/air-conditioner/f3.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) + p.47 flowchart; Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A p.28; Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F4",
+   "meaning": "F4 = compressor delivery/discharge high-temperature protection on Haier split-wall/ductless models (outdoor LED1 flashes 8 times). Threshold: 110 °C / 230 °F in some Haier manuals, above 120° in others — check your model's manual.",
+   "path": "haier/air-conditioner/f4.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) + p.49 flowchart; Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A p.28; Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25); Haier HSU-09HSA03/R2(DB) / HSU-12HSA03/R2(DB) Service Manual (Edition 20070116), p.47",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F6",
+   "meaning": "F6 = outdoor ambient temperature sensor failure on Haier split-wall/ductless models (outdoor LED1 flashes 12 times; probe shorted or open within 60 seconds). No flowchart or fix step in any manual; F66 does not exist in any Haier manual.",
+   "path": "haier/air-conditioner/f6.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A p.28; Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "E2",
+   "meaning": "E2 = heat exchanger (indoor coil) temperature sensor failure on Haier split-wall/ductless models (faulty sensor or short-circuit for more than 2 consecutive minutes). Not coil freezing — icing is E5. On portable models E2 is the room sensor.",
+   "path": "haier/air-conditioner/e2.html",
+   "source": "Haier Split Type Room Air Conditioner Operation Manual (models AS25/35/50/68/71...HRA — Pearl / Pearl Premium / Pearl Nordic / Revive Plus / Expert Nordic, R32), Troubleshooting Codes table; Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A pp.28-29; Haier HSU09XHK / HSU12XHK Service Manual (Order No. AC1205S001V0), §7.2 pp.32-33",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "E4",
+   "meaning": "E4 = indoor EEPROM error on Haier split-wall/ductless models (EEPROM data error / defective EEPROM / defective indoor PCB). No manual gives an owner fix — the manual's only instruction is to replace the indoor PCB.",
+   "path": "haier/air-conditioner/e4.html",
+   "source": "Haier Split Type Room Air Conditioner Operation Manual (models AS25/35/50/68/71...HRA — Pearl / Pearl Premium / Pearl Nordic / Revive Plus / Expert Nordic, R32), Troubleshooting Codes table; Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A pp.28-29; Haier HSU09XHK / HSU12XHK Service Manual (Order No. AC1205S001V0), §7.2 p.33",
+   "status": "verified"
+  }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
   "site": "Appliance Error Codes & Troubleshooting",
-  "updated": "2026-11-14"
+  "updated": "2026-11-15"
 }
