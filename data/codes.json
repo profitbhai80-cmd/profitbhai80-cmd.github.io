@@ -4113,9 +4113,240 @@
    "path": "haier/air-conditioner/e4.html",
    "source": "Haier Split Type Room Air Conditioner Operation Manual (models AS25/35/50/68/71...HRA — Pearl / Pearl Premium / Pearl Nordic / Revive Plus / Expert Nordic, R32), Troubleshooting Codes table; Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A pp.28-29; Haier HSU09XHK / HSU12XHK Service Manual (Order No. AC1205S001V0), §7.2 p.33",
    "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F19",
+   "meaning": "F19 = power voltage too high or too low on Haier split-wall/ductless models (outdoor LED1 flashes 6 times). Thresholds differ by manual: 270V/187V AC mains (M3) vs >390V/<150V at the P & N terminals (M2) — different test points, never merged.",
+   "path": "haier/air-conditioner/f19.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43) + p.48 flowchart; Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A pp.28-31); Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25) (p.25); Haier AS35SBBHRA-MW / AS71SEPHRA-MB / 1U35KEHFRA-NR Service Manuals, §10.4.8; Haier HSU09VHJ(DB) Service Manual, §7.3.10",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F8",
+   "meaning": "F8 = outdoor DC fan motor fault on Haier split-wall/ductless models (outdoor LED1 flashes 9 times; no rotation feedback within 2 minutes). The M2 p.45 flowchart decides module PCB vs fan motor — not a temperature sensor and not high pressure.",
+   "path": "haier/air-conditioner/f8.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43 + p.45 flowchart); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A pp.28-31); Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25) (p.25); Haier AS35SBBHRA-MW Service Manual (Version V1, 2024-11-30) §10.4.4 pp.35-36",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F11",
+   "meaning": "F11 = loss of compressor synchronism detection on Haier split-wall/ductless models (outdoor LED1 flashes 18 times; rotor position cannot be detected normally). Not an EEPROM fault (F12) and not a voltage fault (F19); cabinet F11 is a suction-sensor fault.",
+   "path": "haier/air-conditioner/f11.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43 + p.50 flowchart); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A pp.28-31); Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25) (p.25); Haier AS35SBBHRA-MW Service Manual (Version V1, 2024-11-30) §10.4.11 p.48",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F22",
+   "meaning": "F22 = overcurrent protection of AC electricity for the outdoor model on Haier split-wall/ductless models (outdoor LED1 flashes 3 times). Shares one flowchart with F2 (24) and F23 (25); cabinet F22 is PFC overcurrent.",
+   "path": "haier/air-conditioner/f22.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43 + p.46 flowchart); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A pp.28-31); Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25) (p.25); Haier AS35SBBHRA-MW Service Manual (Version V1, 2024-11-30) §10.4.6 p.38",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F23",
+   "meaning": "F23 = overcurrent protection for single-phase (U-V-W) of the compressor on Haier split-wall/ductless models (outdoor LED1 flashes 25 times). Shares one flowchart with F2 (24) and F22 (3); M7 lists it as a trouble record; cabinet F23 is a power-module temperature fault.",
+   "path": "haier/air-conditioner/f23.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43 + p.46 flowchart); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A pp.28-31); Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25) (p.25); Haier AS35SBBHRA-MW Service Manual (Version V1, 2024-11-30) §10.4.6 p.38",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F7",
+   "meaning": "F7 = compressor intake (suction) temperature sensor failure on Haier split-wall/ductless models (outdoor LED1 flashes 11 times). Not the defrost sensor (F21); cabinet F11 is the suction sensor.",
+   "path": "haier/air-conditioner/f7.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A pp.28-31); Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25) (p.25); Haier AS35SBBHRA-MW Service Manual (Version V1, 2024-11-30) §10.4.1 p.31",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F12",
+   "meaning": "F12 = outdoor EEPROM error on Haier split-wall/ductless models (outdoor LED1 flashes 1 time; outdoor motherboard EEPROM faulty). Not E4 (indoor EEPROM) and not a fuse fault; cabinet F12 is an ambient-sensor fault.",
+   "path": "haier/air-conditioner/f12.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A pp.28-31); Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25) (p.25); Haier AS24TD2HRA Service Manual §10.3.2",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F21",
+   "meaning": "F21 = outdoor defrosting (frost-removing) temperature sensor failure on Haier split-wall/ductless models (outdoor LED1 flashes 10 times; probe shorted or open within 60 seconds). Not the suction sensor (F7); cabinet F10.",
+   "path": "haier/air-conditioner/f21.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A pp.28-31); Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25) (p.25); Haier AS24TD2HRA Service Manual §10.3.1",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F25",
+   "meaning": "F25 = compressor delivery (discharge / exhaust) temperature sensor failure on Haier split-wall/ductless models (outdoor LED1 flashes 13 times). Not the F4 overheat protection; cabinet F25 is phase overcurrent, cabinet F13 is the delivery probe.",
+   "path": "haier/air-conditioner/f25.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A pp.28-31); Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25) (p.25); Haier AS35SBBHRA-MW Service Manual (Version V1, 2024-11-30) §10.4.1 p.31",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F27",
+   "meaning": "F27 = compressor locked rotor / stall on Haier split-wall/ductless models (outdoor LED1 flashes 7 times); the alarm locks the machine after 3 trips in an hour. No DIY fix in any manual; cabinet F27 is a current-verification fault.",
+   "path": "haier/air-conditioner/f27.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A p.29); Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25) (p.25)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F28",
+   "meaning": "F28 = outdoor compressor-drive fault on Haier split-wall/ductless models (outdoor LED1 flashes 19 times) — three manuals word it differently: 'loop of the station detect error' (M2), 'compressor overcurrent at fixed frequency' (M3), 'module PWM select circuit error' (M7). No single wording is 'the' meaning.",
+   "path": "haier/air-conditioner/f28.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43 + p.50 flowchart); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A p.30); Haier 1U26MADFRA Room Air Conditioner Installation Manual (Sept 2024, R32, AU/NZ), Outdoor Unit Troubleshooting (p.25) (p.25); Haier AS35SBBHRA-MW Service Manual (Version V1, 2024-11-30) §10.4.11 p.48",
+   "status": "verified"
+  },
+  {
+   "appliance": "Air Conditioner",
+   "brand": "Haier",
+   "brandSlug": "haier",
+   "category": "air-conditioners",
+   "code": "F36",
+   "meaning": "F36 = middle part of the condenser temperature sensor failure on Haier split-wall/ductless models (outdoor LED1 flashes 39 times; piping probe 'TC' disconnected, broken or poorly positioned). M7 does not list F36; cabinet F39 is the TC sensor.",
+   "path": "haier/air-conditioner/f36.html",
+   "source": "Haier Ductless Split Air Conditioner Service Manual (US models AW09/12/18/24ES2VHA + 1U09/12/18/24ES2VHA, R410A), Error Codes & Problem Solving (p.43) (p.43); Haier European HVAC Technical Book 2024-25, DIAGNOSTIC Table A (Mono Residential and Multi Units) (Table A p.31)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Midea",
+   "brandSlug": "midea",
+   "category": "washing-machines",
+   "code": "E10",
+   "meaning": "E10 = water injecting problem during the wash cycle on Midea front-load washers — the water level doesn't change within 3 minutes. Owner checks: tap, pressure over 0.1 MPa, straighten hose, clean inlet filter; valve 3–6 kΩ and sensor 10–50 Ω are technician checks.",
+   "path": "midea/washing-machine/e10.html",
+   "source": "Midea MF210 Series Service Manual (midea.com), §6 'ERORR CODES AND EXPLANATIONS' (§6, E10 row); Midea MF110W60D Service Manual (manua.ls, 71 pp.), §5 'MALFUNCTION CODES AND EXPLANATIONS' (§5 p.12); Midea MF200W120WB User Manual (manuals.plus), user error table; Midea MFE50/60/75 Owner's Manual (AU, manuals.plus), user error table; Midea WBMF310 Washer-Dryer User Manual (manua.ls), user error table; Midea Drum Washing Machine Service Manual (guidespdf), §3.2",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Midea",
+   "brandSlug": "midea",
+   "category": "washing-machines",
+   "code": "E30",
+   "meaning": "E30 = door is not closed properly on Midea front-load washers — the door can't be locked after over 3 failed attempts. Check the door is shut and aligned, no clothing jammed; lock resistance 100–300 Ω (M5).",
+   "path": "midea/washing-machine/e30.html",
+   "source": "Midea MF210 Series Service Manual (midea.com), §6 'ERORR CODES AND EXPLANATIONS' (§6, E30 row); Midea MF110W60D Service Manual (manua.ls, 71 pp.), §5 'MALFUNCTION CODES AND EXPLANATIONS' (§5 pp.26–27); Midea MF200W120WB User Manual (manuals.plus), user error table; Midea MFE50/60/75 Owner's Manual (AU, manuals.plus), user error table; Midea WBMF310 Washer-Dryer User Manual (manua.ls), user error table; Midea Drum Washing Machine Service Manual (guidespdf), §3.2; Midea MF110W70BA10 manual FAQ (manua.ls) — 'E30 error indicates the door can't be locked'",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Midea",
+   "brandSlug": "midea",
+   "category": "washing-machines",
+   "code": "E21",
+   "meaning": "E21 = overtime water draining on Midea front-load washers — the water level doesn't change within 6 minutes. Check the drain hose, clean the pump filter monthly, hose under 1 m; pump 150–250 Ω (M5).",
+   "path": "midea/washing-machine/e21.html",
+   "source": "Midea MF210 Series Service Manual (midea.com), §6 'ERORR CODES AND EXPLANATIONS' (§6, E21 row); Midea MF110W60D Service Manual (manua.ls, 71 pp.), §5 'MALFUNCTION CODES AND EXPLANATIONS' (§5 pp.22–25); Midea MF200W120WB User Manual (manuals.plus), user error table; Midea MFE50/60/75 Owner's Manual (AU, manuals.plus), user error table; Midea WBMF310 Washer-Dryer User Manual (manua.ls), user error table; Midea Drum Washing Machine Service Manual (guidespdf), §3.2 (§3.2, 7-minute variant)",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Midea",
+   "brandSlug": "midea",
+   "category": "washing-machines",
+   "code": "E12",
+   "meaning": "E12 = water overflow on Midea front-load washers — level stays above the overflow level for 16 seconds, the machine empties, then alarms. Restart first; water entering with power off means a faulty valve; sensor 40–50 nF (M5).",
+   "path": "midea/washing-machine/e12.html",
+   "source": "Midea MF210 Series Service Manual (midea.com), §6 'ERORR CODES AND EXPLANATIONS' (§6, E12 row); Midea MF110W60D Service Manual (manua.ls, 71 pp.), §5 'MALFUNCTION CODES AND EXPLANATIONS' (§5 pp.16–21); Midea MF200W120WB User Manual (manuals.plus), user error table; Midea MFE50/60/75 Owner's Manual (AU, manuals.plus), user error table; Midea WBMF310 Washer-Dryer User Manual (manua.ls), user error table",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Midea",
+   "brandSlug": "midea",
+   "category": "washing-machines",
+   "code": "E1",
+   "meaning": "E1 = water is not supplied on Midea top-load washers — the tub didn't reach the set level within 30 minutes, buzzer rings. Tap, pressure, blocked/damaged inlet valve, PCB; 'can't stop the water' variant included (M4).",
+   "path": "midea/washing-machine/e1.html",
+   "source": "Midea MAS70/MAS80/MAS120 Top-Load Service Manual (manuals.plus), §6 'ERORR CODES AND EXPLANATIONS' (§6 + §7.2); Midea MA100W75/85/95 Owner's Manual (manualspro.net), troubleshooting table p.20; Midea MF11EW80BA10 manual FAQ (manuals.co.uk) — E1 = water supply issue",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Midea",
+   "brandSlug": "midea",
+   "category": "washing-machines",
+   "code": "E33",
+   "meaning": "E33 = water level sensor failure on Midea front-load washers — sensor frequency out of normal range for 10 seconds. Check sensor connector, sensor, then PCB connector (M5 p.29); not E12 (overflow) or E3 (lid).",
+   "path": "midea/washing-machine/e33.html",
+   "source": "Midea MF210 Series Service Manual (midea.com), §6 'ERORR CODES AND EXPLANATIONS' (§6, E33 row); Midea MF110W60D Service Manual (manua.ls, 71 pp.), §5 'MALFUNCTION CODES AND EXPLANATIONS' (§5 pp.28–29); Midea MF100T80B Service Manual FAQ (manua.ls) — E33 corroboration, EU top-load MFL80-T1301B family",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Midea",
+   "brandSlug": "midea",
+   "category": "washing-machines",
+   "code": "E50",
+   "meaning": "E50 = motor inverter PCB abnormal on Midea front-load (BLDC/inverter) washers — the inverter PCB detects abnormal signals. Voltage thresholds 165/275 V (220–240 V) or 83/158 V (110–127 V); not 'multiple errors' (M1/M5).",
+   "path": "midea/washing-machine/e50.html",
+   "source": "Midea MF210 Series Service Manual (midea.com), §6 'ERORR CODES AND EXPLANATIONS' (§6, E50 row); Midea MF110W60D Service Manual (manua.ls, 71 pp.), §5 'MALFUNCTION CODES AND EXPLANATIONS' (§5 p.30, pp.32–34); Midea MF110W70BA10 manual FAQ (manua.ls) — E50 motor inverter PCB corroboration",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Midea",
+   "brandSlug": "midea",
+   "category": "washing-machines",
+   "code": "E80",
+   "meaning": "E80 = no communication between the main control board and the display panel on Midea front-load washers. Check the communication cable connector, then main-board and display-panel terminals (M5 pp.50–51); E81 has no manual support.",
+   "path": "midea/washing-machine/e80.html",
+   "source": "Midea MF110W60D Service Manual (manua.ls, 71 pp.), §5 'MALFUNCTION CODES AND EXPLANATIONS' (§5 p.50, pp.50–51); Midea MF210 Series Service Manual (midea.com), §6 'ERORR CODES AND EXPLANATIONS' (§6, E80 row); Midea MF110W70BA10 / MF110W80BA10 manual FAQs (manua.ls / manuals.co.uk) — E80 corroboration",
+   "status": "verified"
+  },
+  {
+   "appliance": "Washing Machine",
+   "brand": "Midea",
+   "brandSlug": "midea",
+   "category": "washing-machines",
+   "code": "E64",
+   "meaning": "E64 = motor inverter PCB error on Midea front-load (BLDC only) washers — poor communication between main PCB and motor inverter PCB; no reply within 20 seconds, 2-minute inverter reset. Harness seating first; not a heater fault (M1/M5).",
+   "path": "midea/washing-machine/e64.html",
+   "source": "Midea MF110W60D Service Manual (manua.ls, 71 pp.), §5 'MALFUNCTION CODES AND EXPLANATIONS' (§5 pp.45–49); Midea MF210 Series Service Manual (midea.com), §6 'ERORR CODES AND EXPLANATIONS' (§6, E64 row)",
+   "status": "verified"
   }
   ],
   "note": "status=verified entries have a published guide page whose meaning was checked against the named manufacturer manual. status=planned entries are research queue items only: no guide page exists yet and no meaning is published until it is verified against the manufacturer manual.",
   "site": "Appliance Error Codes & Troubleshooting",
-  "updated": "2026-11-15"
+  "updated": "2026-11-16"
 }
